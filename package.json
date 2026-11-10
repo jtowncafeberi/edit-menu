@@ -4,14 +4,21 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
-    "test": "node verify.mjs && node share-pdf.test.mjs"
+    "dev": "npm run build && npm run preview",
+    "build": "vite build && node scripts/build-worker.mjs",
+    "test": "node verify.mjs && node share-pdf.test.mjs && node storage.test.mjs",
+    "preview": "node scripts/dev-server.mjs"
   },
   "dependencies": {
     "pako": "2.1.0",
     "pdf-lib": "1.17.1",
     "pdfjs-dist": "4.10.38",
     "vite": "6.4.6"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  },
+  "engines": {
+    "node": ">=22.13.0"
   }
 }

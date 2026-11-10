@@ -1,17 +1,27 @@
 # J-Town Café Menu Studio
 
-A browser-only editor for the original 12-page `8nov2026.pdf`. PDF.js renders the original menu; the artwork is not reconstructed in HTML. Exports modify selected PDF text objects, preserving photographs and vector artwork.
+An editor for the original 12-page `8nov2026.pdf`. PDF.js renders the original menu; the artwork is not reconstructed in HTML. Exports modify selected PDF text objects, preserving photographs and vector artwork.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Open the printed localhost URL. `npm run build` creates the static website in `dist/`.
+Open the printed localhost URL. `npm run build` creates the browser assets in `dist/client/` and the database API Worker in `dist/server/`. Node 22.13+ is required for the local SQLite preview. `npm run dev` builds and starts the editor plus its local shared database; rebuild after source changes.
 
-Click a highlighted price, name or quantity to edit it. Preview hides all targets and edit tools. Undo, individual/all reset, browser persistence, JSON backup import/export, page navigation, zoom and print-quality PDF downloads are included. Use backups when moving devices. All edits remain in the current browser.
+Click a highlighted price, name or quantity to edit it. Preview hides all targets and edit tools. Undo, individual/all reset, browser persistence, JSON backup import/export, page navigation, zoom and print-quality PDF downloads are included. Use backups when moving devices. Edits automatically save to a shared database; local browser recovery and JSON backups are also retained.
 
 The three `static/original.part*` files concatenate to the exact original PDF bytes. This accommodates hosting asset-size limits; it does not alter the PDF. A zero-edit download returns the original bytes unchanged.
+
+## Shared saving
+
+The hosted editor automatically saves edits and a last-saved timestamp to Cloudflare D1 through `/api/menu`. Fresh visits load the latest saved menu. No application password, account, private owner token or sign-in is required. Anyone able to access the editor can read and change its menu. The hosting platform’s existing site access policy remains separate and unchanged.
+
+Only the text changes are stored, not new copies of the original PDF or photographs. All saves use server-side field/glyph/overlap validation. Revision checks prevent a stale browser from overwriting newer edits: “Load saved menu” loads the online version and first downloads any pending local changes as a backup. Offline edits remain local; “Retry saving” reconnects. This supports editing after the page has loaded; it is not a fully offline-installable application.
+
+Legacy local edits upload automatically if shared storage is empty. If an online menu already exists and differs from unsaved local edits, the editor asks the user to load the saved menu and preserves the local changes in a backup. It never silently overwrites that newer online menu.
+
+Local preview uses `work/menu.sqlite` (ignored by Git). Hosted storage uses the `DB` D1 binding and the schema migration in `drizzle/`. Sites provisions that binding from its hosting manifest. GitHub Pages or a plain static Vercel deployment cannot run this API: self-hosting needs a compatible Worker + D1 binding, assets binding, and migration application.
 
 ## Share PDF
 

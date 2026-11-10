@@ -210,3 +210,7 @@ dialog input { width: 100%; padding: 13px 14px; border: 1px solid #b8c6a8; borde
   .tools { column-gap: 7px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+
+.sync-actions { display: grid; gap: 8px; grid-column: 1 / -1; }
+.sync-actions[hidden] { display: none; }
+.sync-actions button { padding: 8px; font-size: 12px; }

@@ -1,2 +1,2 @@
 import {defineConfig} from 'vite';
-export default defineConfig({publicDir:'static',build:{target:'es2022'}});
+export default defineConfig({publicDir:'static',build:{target:'es2022',outDir:'dist/client'}});

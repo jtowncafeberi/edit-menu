@@ -3,13 +3,15 @@ import * as pdfjs from 'pdfjs-dist';
 import workerURL from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
 import {createEngine, SOURCE_ID} from './engine.js';
 import {sharePDF} from './share-pdf.js';
+import {MenuSync} from './menu-sync.js';
 
 pdfjs.GlobalWorkerOptions.workerSrc = workerURL;
+const renderingWorker = new pdfjs.PDFWorker();
 const $ = id => document.getElementById(id);
 const titles = ['Cover','Burgers & Lemonade','Shakes & Sandwiches','Momos & Starters','Fries, Wraps & Subs','Maggie & Poha','Noodles','Pasta','Beverages','Pizza','Special Loaded Pizza','Combos'];
 const KEY = 'jtown-menu-edits-v1';
 let data, engine, original, supplement, pdf, preparedPDFFile, edits = {}, history = [], selected;
-let zoom = 1, mode = 'edit', generation = 0, ready = false, busy = false, recovery, storageAvailable = true;
+let zoom = 1, mode = 'edit', generation = 0, ready = false, busy = false, recovery, storageAvailable = true, cloud;
 const wrappers = [], visible = new Set(), renderTasks = new Map(), renderTokens = new Map();
 
 function toast(message) {
@@ -35,7 +37,14 @@ function syncUI() {
   $('resetAll').disabled = !ready || busy || (!count && !recovery);
   $('backup').disabled = !ready || busy;
   $('backup').textContent = recovery ? 'Export recovery backup' : 'Export backup';
-  $('saveState').textContent = !ready ? 'Loading original menu…' : busy ? 'Updating menu…' : recovery ? 'Saved edits need review' : !storageAvailable ? 'Export a backup to keep your edits' : count ? 'Saved on this device' : 'Original menu · No changes';
+  const savedTime = cloud?.updatedAt ? new Date(cloud.updatedAt).toLocaleString([], {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'}) : '';
+  const cloudText = !cloud ? 'Loading saved menu…' : cloud.status === 'conflict' ? 'Newer menu online · Review before saving' : cloud.status === 'offline' ? (storageAvailable ? 'Offline · Changes kept on this device' : 'Offline · Export a backup before leaving') : cloud.status === 'connecting' ? 'Connecting to shared storage…' : cloud.status === 'saving' || cloud.pending ? 'Saving changes online…' : savedTime ? `Saved online · ${savedTime}` : 'Original menu · Ready to save online';
+  $('saveState').textContent = !ready ? 'Loading original menu…' : recovery ? 'Saved edits need review' : cloudText;
+  $('saveState').title = cloud?.updatedAt ? `Last saved: ${new Date(cloud.updatedAt).toLocaleString()}` : '';
+  $('syncActions').hidden = !ready || recovery || !['offline', 'conflict'].includes(cloud?.status);
+  $('retrySync').hidden = cloud?.status === 'conflict';
+  $('retrySync').disabled = busy;
+  $('loadSaved').disabled = busy;
   $('import').disabled = !ready || busy;
   $('importButton').disabled = !ready || busy;
   $('download').disabled = !ready || busy;
@@ -55,11 +64,37 @@ function syncUI() {
     button.setAttribute('aria-label', `Edit ${field.kind}: ${value}`);
   });
 }
-function save() {
-  try { localStorage.setItem(KEY, JSON.stringify({source: SOURCE_ID, edits})); }
+function persistLocal() {
+  try { localStorage.setItem(KEY, JSON.stringify({source: SOURCE_ID, edits: cloud?.edits ?? edits, cloud: cloud?.metadata()})); }
   catch { storageAvailable = false; toast('Browser storage unavailable. Export a backup to keep your edits.'); }
+}
+function save() {
+  if (cloud) cloud.change(edits);
+  else persistLocal();
   syncUI();
 }
+async function reconnect(useSaved = false) {
+  if (!ready || busy || recovery) return;
+  busy = true; syncUI();
+  try {
+    if (useSaved && cloud.pending) download(JSON.stringify({version: 1, source: SOURCE_ID, edits}, null, 2), 'jtown-unsaved-edits.json', 'application/json');
+    if (await cloud.connect({useSaved})) {
+      if (JSON.stringify(edits) !== JSON.stringify(cloud.edits)) {
+        const next = await loadPDF(cloud.edits);
+        edits = {...cloud.edits}; history = [];
+        await displayPDF(next);
+      }
+      persistLocal(); cloud.flush();
+    }
+  } catch (error) { toast(`Unable to load saved menu: ${error.message}`); }
+  finally { busy = false; syncUI(); }
+}
+$('retrySync').onclick = () => reconnect();
+$('loadSaved').onclick = () => reconnect(true);
+window.addEventListener('online', () => reconnect());
+window.addEventListener('beforeunload', event => {
+  if (cloud?.pending) { event.preventDefault(); event.returnValue = ''; }
+});
 async function renderPage(index, version = generation) {
   if (!pdf || version !== generation) return;
   const token = (renderTokens.get(index) ?? 0) + 1;
@@ -92,7 +127,7 @@ async function renderPage(index, version = generation) {
 }
 async function loadPDF(next) {
   const bytes = await engine.exportPDF(next);
-  const document = await pdfjs.getDocument({data: bytes.slice()}).promise;
+  const document = await pdfjs.getDocument({data: bytes.slice(), worker: renderingWorker}).promise;
   preparedPDFFile = new File([bytes], 'J-Town-Cafe-Menu.pdf', {type: 'application/pdf'});
   return document;
 }
@@ -339,9 +374,11 @@ async function init() {
       if (stored) recovery = {version: 1, ...stored};
       toast(`Saved edits could not be restored: ${error.message}`);
     }
+    cloud = new MenuSync({source: SOURCE_ID, edits, stored: stored?.cloud, validate: next => engine.validate(next), onState: () => { if (!recovery) persistLocal(); if (ready) syncUI(); }});
+    if (!recovery) { await cloud.connect(); edits = {...cloud.edits}; }
     construct(); syncUI();
     await displayPDF(await loadPDF(edits));
-    ready = true; syncUI(); $('notice').textContent = status(); updateActivePage();
+    ready = true; syncUI(); $('notice').textContent = status(); updateActivePage(); if (!recovery) cloud.flush();
   } catch (error) { $('notice').textContent = `Unable to load menu: ${error.message}`; console.error(error); }
 }
 init();
