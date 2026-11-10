@@ -43,25 +43,13 @@ button:focus-visible, summary:focus-visible, select:focus-visible, input:focus-v
   border-bottom: 1px solid var(--line);
 }
 .brand-group, .header-actions { display: flex; align-items: center; gap: 14px; }
-.brand-mark {
-  width: 40px;
-  height: 40px;
-  display: grid;
-  place-items: center;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background: var(--accent);
-  color: #303829;
-  font-size: 15px;
-  font-weight: 800;
-  letter-spacing: -1px;
-}
+.brand-logo, .brand-logo img { display: block; width: 56px; height: 56px; object-fit: contain; }
 .brand { display: flex; flex-direction: column; gap: 4px; }
 .brand strong { font-size: 18px; font-weight: 650; letter-spacing: -.5px; }
 .brand span { color: var(--muted); font-size: 12px; }
 .icon-button { display: grid; place-items: center; width: 40px; padding: 8px; background: transparent; }
-.icon-button svg { width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.6; }
-#togglePages { border-color: transparent; }
+#togglePages { width: 60px; min-height: 60px; padding: 2px; border-color: transparent; border-radius: 50%; }
+#togglePages:hover { background: #eadbc5; }
 .primary { color: #fffefa; background: #293e32; border-color: #293e32; font-weight: 600; }
 .primary:hover { background: #365540; border-color: #365540; }
 #download { display: flex; align-items: center; justify-content: center; gap: 18px; min-height: 44px; padding-inline: 18px; font-size: 13px; white-space: nowrap; }
@@ -166,7 +154,8 @@ dialog input { width: 100%; padding: 13px 14px; border: 1px solid #b8c6a8; borde
 @media (max-width: 800px) {
   .app-header { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px 12px; min-height: 0; padding: 12px 16px; }
   .brand-group { grid-column: 1; grid-row: 1; gap: 8px; min-width: 0; }
-  .brand-mark { display: none; }
+  .brand-logo, .brand-logo img { width: 36px; height: 36px; }
+  #togglePages { width: 40px; min-height: 40px; padding: 2px; }
   .brand strong { font-size: 16px; }
   .brand span { font-size: 11px; }
   .header-actions { display: contents; }
@@ -210,7 +199,7 @@ dialog input { width: 100%; padding: 13px 14px; border: 1px solid #b8c6a8; borde
 @media (max-width: 360px) {
   .app-header { padding-inline: 12px; gap: 10px 8px; }
   .brand-group { gap: 5px; }
-  #togglePages { width: 34px; min-height: 36px; padding: 6px; }
+  #togglePages { width: 36px; min-height: 36px; padding: 0; }
   .brand strong { font-size: 14px; }
   .brand span { font-size: 10px; }
   #download { padding-inline: 10px; font-size: 11px; gap: 6px; }
