@@ -13,7 +13,13 @@ Click a highlighted price, name or quantity to edit it. Preview hides all target
 
 The three `static/original.part*` files concatenate to the exact original PDF bytes. This accommodates hosting asset-size limits; it does not alter the PDF. A zero-edit download returns the original bytes unchanged.
 
-## Shared saving
+## Vercel-only deployment
+
+Import this repository into Vercel. The checked-in `vercel.json` uses `npm run build:vercel` and publishes `dist/client/`. No database, Cloudflare account, API keys or environment variables are required for this build. It saves edits only in the current browser and shows “Saved on this device”. Use JSON backups to move edits to another device; clearing browser data removes local edits. PDF download and native file sharing still work.
+
+The previously published ChatGPT Site is a separate deployment and is not changed by this Vercel configuration. The server-backed build remains available below but is not used on Vercel.
+
+## Shared saving (server-backed build only)
 
 The hosted editor automatically saves edits and a last-saved timestamp to Cloudflare D1 through `/api/menu`. Fresh visits load the latest saved menu. No application password, account, private owner token or sign-in is required. Anyone able to access the editor can read and change its menu. The hosting platform’s existing site access policy remains separate and unchanged.
 

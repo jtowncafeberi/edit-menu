@@ -38,7 +38,7 @@ function syncUI() {
   $('backup').disabled = !ready || busy;
   $('backup').textContent = recovery ? 'Export recovery backup' : 'Export backup';
   const savedTime = cloud?.updatedAt ? new Date(cloud.updatedAt).toLocaleString([], {month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'}) : '';
-  const cloudText = !cloud ? 'Loading saved menu…' : cloud.status === 'conflict' ? 'Newer menu online · Review before saving' : cloud.status === 'offline' ? (storageAvailable ? 'Offline · Changes kept on this device' : 'Offline · Export a backup before leaving') : cloud.status === 'connecting' ? 'Connecting to shared storage…' : cloud.status === 'saving' || cloud.pending ? 'Saving changes online…' : savedTime ? `Saved online · ${savedTime}` : 'Original menu · Ready to save online';
+  const cloudText = !cloud ? (storageAvailable ? (count ? 'Saved on this device' : 'Original menu · No changes') : 'Export a backup to keep your edits') : cloud.status === 'conflict' ? 'Newer menu online · Review before saving' : cloud.status === 'offline' ? (storageAvailable ? 'Offline · Changes kept on this device' : 'Offline · Export a backup before leaving') : cloud.status === 'connecting' ? 'Connecting to shared storage…' : cloud.status === 'saving' || cloud.pending ? 'Saving changes online…' : savedTime ? `Saved online · ${savedTime}` : 'Original menu · Ready to save online';
   $('saveState').textContent = !ready ? 'Loading original menu…' : recovery ? 'Saved edits need review' : cloudText;
   $('saveState').title = cloud?.updatedAt ? `Last saved: ${new Date(cloud.updatedAt).toLocaleString()}` : '';
   $('syncActions').hidden = !ready || recovery || !['offline', 'conflict'].includes(cloud?.status);
@@ -74,7 +74,7 @@ function save() {
   syncUI();
 }
 async function reconnect(useSaved = false) {
-  if (!ready || busy || recovery) return;
+  if (!ready || busy || recovery || !cloud) return;
   busy = true; syncUI();
   try {
     if (useSaved && cloud.pending) download(JSON.stringify({version: 1, source: SOURCE_ID, edits}, null, 2), 'jtown-unsaved-edits.json', 'application/json');
@@ -374,11 +374,13 @@ async function init() {
       if (stored) recovery = {version: 1, ...stored};
       toast(`Saved edits could not be restored: ${error.message}`);
     }
-    cloud = new MenuSync({source: SOURCE_ID, edits, stored: stored?.cloud, validate: next => engine.validate(next), onState: () => { if (!recovery) persistLocal(); if (ready) syncUI(); }});
-    if (!recovery) { await cloud.connect(); edits = {...cloud.edits}; }
+    if (import.meta.env.VITE_MENU_STORAGE !== 'local') {
+      cloud = new MenuSync({source: SOURCE_ID, edits, stored: stored?.cloud, validate: next => engine.validate(next), onState: () => { if (!recovery) persistLocal(); if (ready) syncUI(); }});
+      if (!recovery) { await cloud.connect(); edits = {...cloud.edits}; }
+    }
     construct(); syncUI();
     await displayPDF(await loadPDF(edits));
-    ready = true; syncUI(); $('notice').textContent = status(); updateActivePage(); if (!recovery) cloud.flush();
+    ready = true; syncUI(); $('notice').textContent = status(); updateActivePage(); if (!recovery) cloud?.flush();
   } catch (error) { $('notice').textContent = `Unable to load menu: ${error.message}`; console.error(error); }
 }
 init();
