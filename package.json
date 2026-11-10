@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "vite build",
-    "test": "node verify.mjs"
+    "test": "node verify.mjs && node share-pdf.test.mjs"
   },
   "dependencies": {
     "pako": "2.1.0",

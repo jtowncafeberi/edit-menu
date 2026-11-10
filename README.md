@@ -13,6 +13,10 @@ Click a highlighted price, name or quantity to edit it. Preview hides all target
 
 The three `static/original.part*` files concatenate to the exact original PDF bytes. This accommodates hosting asset-size limits; it does not alter the PDF. A zero-edit download returns the original bytes unchanged.
 
+## Share PDF
+
+Share PDF passes the current, full-quality PDF file to the device’s native share sheet when the browser supports PDF file sharing over HTTPS. Available apps (such as WhatsApp, Telegram, AirDrop or email) depend on the device and installed share extensions. Unsupported or blocked sharing falls back to downloading the same PDF for manual attachment. Cancelling a share does not force a download. The file is prepared when the displayed menu changes so sharing starts directly from the tap, without waiting for PDF generation. No public upload is required.
+
 ## Audit and limits
 
 [AUDIT.md](AUDIT.md) records the findings, fixes and test coverage: all 383 editable regions, 468 individual export comparisons, a combined 383-edit export checked by two renderers, and desktop/mobile UI checks.

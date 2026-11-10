@@ -2,12 +2,13 @@ import './style.css';
 import * as pdfjs from 'pdfjs-dist';
 import workerURL from 'pdfjs-dist/build/pdf.worker.min.mjs?url';
 import {createEngine, SOURCE_ID} from './engine.js';
+import {sharePDF} from './share-pdf.js';
 
 pdfjs.GlobalWorkerOptions.workerSrc = workerURL;
 const $ = id => document.getElementById(id);
 const titles = ['Cover','Burgers & Lemonade','Shakes & Sandwiches','Momos & Starters','Fries, Wraps & Subs','Maggie & Poha','Noodles','Pasta','Beverages','Pizza','Special Loaded Pizza','Combos'];
 const KEY = 'jtown-menu-edits-v1';
-let data, engine, original, supplement, pdf, edits = {}, history = [], selected;
+let data, engine, original, supplement, pdf, preparedPDFFile, edits = {}, history = [], selected;
 let zoom = 1, mode = 'edit', generation = 0, ready = false, busy = false, recovery, storageAvailable = true;
 const wrappers = [], visible = new Set(), renderTasks = new Map(), renderTokens = new Map();
 
@@ -38,6 +39,7 @@ function syncUI() {
   $('import').disabled = !ready || busy;
   $('importButton').disabled = !ready || busy;
   $('download').disabled = !ready || busy;
+  $('share').disabled = !ready || busy || !preparedPDFFile;
   $('apply').disabled = busy;
   $('apply').textContent = busy ? 'Saving…' : 'Save change';
   $('resetOne').disabled = busy || !selected || !(selected.id in edits);
@@ -90,7 +92,9 @@ async function renderPage(index, version = generation) {
 }
 async function loadPDF(next) {
   const bytes = await engine.exportPDF(next);
-  return pdfjs.getDocument({data: bytes.slice()}).promise;
+  const document = await pdfjs.getDocument({data: bytes.slice()}).promise;
+  preparedPDFFile = new File([bytes], 'J-Town-Cafe-Menu.pdf', {type: 'application/pdf'});
+  return document;
 }
 async function displayPDF(nextPDF) {
   const prior = pdf;
@@ -290,9 +294,18 @@ $('import').onchange = async event => {
 $('download').onclick = async () => {
   if (!ready || busy) return;
   busy = true; syncUI(); $('download').textContent = 'Preparing PDF…';
-  try { download(await engine.exportPDF(edits), 'J-Town-Cafe-Menu.pdf', 'application/pdf'); toast(Object.keys(edits).length ? 'Print-quality PDF downloaded.' : 'Original PDF downloaded unchanged.'); }
+  try { download(preparedPDFFile, preparedPDFFile.name, preparedPDFFile.type); toast(Object.keys(edits).length ? 'Print-quality PDF downloaded.' : 'Original PDF downloaded unchanged.'); }
   catch (error) { toast(error.message); }
   finally { busy = false; $('download').innerHTML = 'Download PDF <span>↓</span>'; syncUI(); }
+};
+$('share').onclick = async () => {
+  if (!ready || busy || !preparedPDFFile) return;
+  busy = true; syncUI();
+  try {
+    const result = await sharePDF(preparedPDFFile, navigator, file => download(file, file.name, file.type));
+    if (result === 'downloaded') toast('File sharing is unavailable here. PDF downloaded — attach it in your preferred app.');
+  } catch (error) { toast(`Unable to share PDF: ${error.message}`); }
+  finally { busy = false; syncUI(); }
 };
 let resizeTimer;
 window.addEventListener('resize', () => {
