@@ -1,0 +1,17 @@
+{
+  "name": "jtown-menu-editor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node verify.mjs"
+  },
+  "dependencies": {
+    "pako": "2.1.0",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "4.10.38",
+    "vite": "6.4.6"
+  }
+}

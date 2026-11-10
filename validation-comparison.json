@@ -1,0 +1,260 @@
+{
+  "simultaneousEdits": 383,
+  "originalImageStreamsPreserved": 383,
+  "comparisons": [
+    {
+      "renderer": "MuPDF",
+      "page": 1,
+      "outside": null,
+      "changed": null
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 2,
+      "outside": null,
+      "changed": [
+        252,
+        358,
+        1109,
+        1184
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 3,
+      "outside": null,
+      "changed": [
+        244,
+        339,
+        1085,
+        1257
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 4,
+      "outside": null,
+      "changed": [
+        180,
+        76,
+        767,
+        1496
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 5,
+      "outside": null,
+      "changed": [
+        733,
+        87,
+        1053,
+        1293
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 6,
+      "outside": null,
+      "changed": [
+        149,
+        67,
+        1060,
+        1506
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 7,
+      "outside": null,
+      "changed": [
+        200,
+        82,
+        1060,
+        1506
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 8,
+      "outside": null,
+      "changed": [
+        418,
+        120,
+        1047,
+        1327
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 9,
+      "outside": null,
+      "changed": [
+        279,
+        96,
+        1073,
+        1467
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 10,
+      "outside": null,
+      "changed": [
+        161,
+        60,
+        1170,
+        1500
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 11,
+      "outside": null,
+      "changed": [
+        163,
+        124,
+        821,
+        1579
+      ]
+    },
+    {
+      "renderer": "MuPDF",
+      "page": 12,
+      "outside": null,
+      "changed": [
+        244,
+        450,
+        1047,
+        1080
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 1,
+      "outside": null,
+      "changed": null
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 2,
+      "outside": null,
+      "changed": [
+        267,
+        359,
+        1112,
+        1184
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 3,
+      "outside": null,
+      "changed": [
+        226,
+        339,
+        1091,
+        1256
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 4,
+      "outside": null,
+      "changed": [
+        193,
+        76,
+        767,
+        1496
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 5,
+      "outside": null,
+      "changed": [
+        682,
+        88,
+        1063,
+        1292
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 6,
+      "outside": null,
+      "changed": [
+        149,
+        68,
+        1060,
+        1506
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 7,
+      "outside": null,
+      "changed": [
+        164,
+        82,
+        1061,
+        1506
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 8,
+      "outside": null,
+      "changed": [
+        418,
+        120,
+        1047,
+        1327
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 9,
+      "outside": null,
+      "changed": [
+        151,
+        96,
+        1074,
+        1467
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 10,
+      "outside": null,
+      "changed": [
+        112,
+        60,
+        1170,
+        1499
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 11,
+      "outside": null,
+      "changed": [
+        40,
+        124,
+        821,
+        1579
+      ]
+    },
+    {
+      "renderer": "PDF.js",
+      "page": 12,
+      "outside": null,
+      "changed": [
+        244,
+        451,
+        1047,
+        1080
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <meta name="description" content="Edit J-Town Café’s original menu, keep the design, and download a print-quality PDF.">
+  <title>J-Town Café · Menu Studio</title>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-group">
+      <button id="togglePages" class="icon-button" aria-label="Hide menu panel" aria-expanded="true" aria-controls="menuPanel" title="Show or hide menu pages">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M9 4v16M13 9h4M13 13h4"/></svg>
+      </button>
+      <span class="brand-mark" aria-hidden="true">JT</span>
+      <div class="brand"><strong>Menu Studio</strong><span>J-Town Café · Beri</span></div>
+    </div>
+    <div class="header-actions">
+      <div class="mode" role="group" aria-label="View mode">
+        <button id="editMode" aria-pressed="true">Edit menu</button>
+        <button id="previewMode" aria-pressed="false">Preview</button>
+      </div>
+      <button id="download" class="primary" disabled>Download PDF <span aria-hidden="true">↓</span></button>
+    </div>
+  </header>
+
+  <div class="workspace">
+    <aside id="menuPanel" aria-label="Menu navigation and edit tools">
+      <div class="aside-top"><div class="section-heading"><h1>Menu pages</h1><span class="number-badge">12</span></div><p>Your original menu, page for page.</p></div>
+      <nav id="pages" aria-label="Menu pages"></nav>
+      <div class="mobile-nav"><label for="pageSelect">Go to page</label><select id="pageSelect" aria-label="Menu page"></select></div>
+      <div class="tools">
+        <div class="change-row"><span id="count">No changes</span><button id="undo" disabled title="Undo the last change"><span aria-hidden="true">↶</span> Undo</button></div>
+        <details id="moreTools">
+          <summary>Backups &amp; reset <span aria-hidden="true">⌄</span></summary>
+          <div class="tool-grid">
+            <button id="backup" disabled>Export backup</button>
+            <button id="importButton" disabled>Import backup</button>
+            <button id="resetAll" class="danger" disabled>Reset all changes</button>
+          </div>
+        </details>
+        <input id="import" type="file" accept="application/json,.json" hidden>
+        <p class="save-note"><span class="status-dot" aria-hidden="true"></span><span id="saveState">Loading original menu…</span></p>
+      </div>
+    </aside>
+
+    <main>
+      <div class="viewbar" id="viewbar">
+        <div class="page-context"><span class="eyebrow">YOUR MENU</span><span id="viewStatus">12 original pages</span></div>
+        <div class="zoom" role="group" aria-label="Menu zoom">
+          <button id="zoomOut" aria-label="Zoom out">−</button><output id="zoomValue" aria-label="Zoom level">100%</output><button id="zoomIn" aria-label="Zoom in">+</button><span class="zoom-divider" aria-hidden="true"></span><button id="fit" title="Fit the menu to the available width">Fit page</button>
+        </div>
+      </div>
+      <div class="editing-guide"><p id="notice" role="status">Loading your original menu…</p><div class="legend" aria-label="Editable areas"><span><i class="price-dot"></i>Prices</span><span><i class="text-dot"></i>Names</span><span><i class="quantity-dot"></i>Sizes</span></div></div>
+      <div id="menu" tabindex="0" role="region" aria-label="Menu pages, horizontally scrollable when zoomed"></div>
+    </main>
+  </div>
+
+  <dialog id="editor" aria-labelledby="valueLabel" aria-describedby="editHint">
+    <form id="editForm">
+      <div class="dialog-head"><span id="fieldType">EDIT PRICE</span><button type="button" id="close" class="icon-button" aria-label="Close editor">×</button></div>
+      <label for="value" id="valueLabel">Price</label>
+      <p id="editHint" class="dialog-intro">A small change. The original design stays in place.</p>
+      <input id="value" autocomplete="off" required maxlength="150">
+      <p id="originalValue"></p><p id="fontLimit" class="hint"></p><p id="fieldError" role="alert"></p>
+      <div class="dialog-actions"><button id="resetOne" type="button">Use original</button><button id="apply" class="primary" type="submit">Save change</button></div>
+      <p class="hint dialog-footer">Original typeface and size · No automatic reflow</p>
+    </form>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

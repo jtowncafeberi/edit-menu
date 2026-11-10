@@ -1,0 +1,6562 @@
+{
+  "zeroEditsByteIdentical": true,
+  "editableFields": 383,
+  "exportChecks": 468,
+  "failures": [],
+  "rejectedCount": 0,
+  "results": [
+    {
+      "id": "p2-x32-b3721-0-17",
+      "page": 2,
+      "changed": [
+        252,
+        772,
+        410,
+        794
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Aloo Tikki Burge",
+      "original": "Aloo Tikki Burger"
+    },
+    {
+      "id": "p2-x32-b3728-0-13",
+      "page": 2,
+      "changed": [
+        369,
+        833,
+        377,
+        850
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Masala Burge",
+      "original": "Masala Burger"
+    },
+    {
+      "id": "p2-x32-b3735-0-15",
+      "page": 2,
+      "changed": [
+        399,
+        888,
+        408,
+        905
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Hangover Burge",
+      "original": "Hangover Burger"
+    },
+    {
+      "id": "p2-x32-b3744-0-21",
+      "page": 2,
+      "changed": [
+        287,
+        939,
+        475,
+        968
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Classic Veggie Burge",
+      "original": "Classic Veggie Burger"
+    },
+    {
+      "id": "p2-x32-b3753-0-19",
+      "page": 2,
+      "changed": [
+        442,
+        999,
+        450,
+        1016
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Spicy Veggie Burge",
+      "original": "Spicy Veggie Burger"
+    },
+    {
+      "id": "p2-x32-b3760-0-19",
+      "page": 2,
+      "changed": [
+        332,
+        1050,
+        453,
+        1073
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Zingy Paneer Burge",
+      "original": "Zingy Paneer Burger"
+    },
+    {
+      "id": "p2-x32-b3767-0-19",
+      "page": 2,
+      "changed": [
+        324,
+        1111,
+        479,
+        1128
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J-Town Jumbo Burge",
+      "original": "J-Town Jumbo Burger"
+    },
+    {
+      "id": "p2-x32-b3774-0-18",
+      "page": 2,
+      "changed": [
+        327,
+        1166,
+        429,
+        1184
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Extra Cheese Slic",
+      "original": "Extra Cheese Slice"
+    },
+    {
+      "id": "p2-x32-b3802-0-11",
+      "page": 2,
+      "changed": [
+        859,
+        528,
+        874,
+        546
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mint Mojit",
+      "original": "Mint Mojito"
+    },
+    {
+      "id": "p2-x32-b3818-0-14",
+      "page": 2,
+      "changed": [
+        947,
+        584,
+        962,
+        602
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Peach Lemonad",
+      "original": "Peach Lemonade"
+    },
+    {
+      "id": "p2-x32-b3827-0-20",
+      "page": 2,
+      "changed": [
+        970,
+        640,
+        1034,
+        658
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Green Apple Lemonad",
+      "original": "Green Apple Lemonade"
+    },
+    {
+      "id": "p2-x32-b3834-0-19",
+      "page": 2,
+      "changed": [
+        1000,
+        695,
+        1015,
+        713
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Strawberry Lemonad",
+      "original": "Strawberry Lemonade"
+    },
+    {
+      "id": "p2-x32-b3841-0-22",
+      "page": 2,
+      "changed": [
+        841,
+        746,
+        1050,
+        769
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Black Current Lemonad",
+      "original": "Black Current Lemonade"
+    },
+    {
+      "id": "p2-x32-b3848-0-17",
+      "page": 2,
+      "changed": [
+        813,
+        806,
+        977,
+        824
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Blue Ice Lemonad",
+      "original": "Blue Ice Lemonade"
+    },
+    {
+      "id": "p2-x32-b3863-0-2",
+      "page": 2,
+      "changed": [
+        583,
+        772,
+        599,
+        795
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "69"
+    },
+    {
+      "id": "p2-x32-b3872-0-2",
+      "page": 2,
+      "changed": [
+        582,
+        828,
+        599,
+        850
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "79"
+    },
+    {
+      "id": "p2-x32-b3881-0-2",
+      "page": 2,
+      "changed": [
+        583,
+        883,
+        599,
+        906
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p2-x32-b3892-0-2",
+      "page": 2,
+      "changed": [
+        583,
+        939,
+        598,
+        962
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p2-x32-b3901-0-2",
+      "page": 2,
+      "changed": [
+        583,
+        994,
+        598,
+        1017
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p2-x32-b3910-0-3",
+      "page": 2,
+      "changed": [
+        566,
+        1050,
+        599,
+        1073
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p2-x32-b3921-0-3",
+      "page": 2,
+      "changed": [
+        566,
+        1105,
+        599,
+        1127
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p2-x32-b3932-0-2",
+      "page": 2,
+      "changed": [
+        583,
+        1161,
+        616,
+        1184
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "20"
+    },
+    {
+      "id": "p2-x32-b3949-0-2",
+      "page": 2,
+      "changed": [
+        1093,
+        467,
+        1109,
+        489
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "79"
+    },
+    {
+      "id": "p2-x32-b3958-0-2",
+      "page": 2,
+      "changed": [
+        1093,
+        522,
+        1109,
+        545
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p2-x32-b3967-0-2",
+      "page": 2,
+      "changed": [
+        1093,
+        578,
+        1109,
+        601
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p2-x32-b3976-0-2",
+      "page": 2,
+      "changed": [
+        1093,
+        633,
+        1109,
+        656
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p2-x32-b3985-0-2",
+      "page": 2,
+      "changed": [
+        1093,
+        689,
+        1109,
+        712
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p2-x32-b3994-0-2",
+      "page": 2,
+      "changed": [
+        1093,
+        744,
+        1109,
+        767
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p2-x32-b4003-0-3",
+      "page": 2,
+      "changed": [
+        1077,
+        800,
+        1109,
+        823
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p2-x32-b4022-0-11",
+      "page": 2,
+      "changed": [
+        436,
+        663,
+        462,
+        705
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "VEG. BURGE",
+      "original": "VEG. BURGER"
+    },
+    {
+      "id": "p2-x32-b4057-0-8",
+      "page": 2,
+      "changed": [
+        926,
+        358,
+        945,
+        400
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "LEMONAD",
+      "original": "LEMONADE"
+    },
+    {
+      "id": "p2-x32-b4086-0-7",
+      "page": 2,
+      "changed": [
+        800,
+        470,
+        813,
+        487
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Classi",
+      "original": "Classic"
+    },
+    {
+      "id": "p2-x32-b4116-0-8",
+      "page": 2,
+      "changed": [
+        938,
+        470,
+        952,
+        487
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Lemonad",
+      "original": "Lemonade"
+    },
+    {
+      "id": "p3-x35-b1518-0-13",
+      "page": 3,
+      "changed": [
+        323,
+        450,
+        338,
+        468
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Vanilla Shak",
+      "original": "Vanilla Shake"
+    },
+    {
+      "id": "p3-x35-b1525-0-15",
+      "page": 3,
+      "changed": [
+        369,
+        504,
+        383,
+        522
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Chocolate Shak",
+      "original": "Chocolate Shake"
+    },
+    {
+      "id": "p3-x35-b1532-0-16",
+      "page": 3,
+      "changed": [
+        280,
+        558,
+        392,
+        576
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Strawberry Shak",
+      "original": "Strawberry Shake"
+    },
+    {
+      "id": "p3-x35-b1539-0-14",
+      "page": 3,
+      "changed": [
+        372,
+        612,
+        387,
+        630
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mango Smoothi",
+      "original": "Mango Smoothie"
+    },
+    {
+      "id": "p3-x35-b1546-0-19",
+      "page": 3,
+      "changed": [
+        413,
+        666,
+        428,
+        684
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Black Currant Shak",
+      "original": "Black Currant Shake"
+    },
+    {
+      "id": "p3-x35-b1553-0-16",
+      "page": 3,
+      "changed": [
+        244,
+        714,
+        383,
+        738
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Blue Berry Shak",
+      "original": "Blue Berry Shake"
+    },
+    {
+      "id": "p3-x35-b1560-0-18",
+      "page": 3,
+      "changed": [
+        416,
+        774,
+        431,
+        792
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Oreo Caramel Shak",
+      "original": "Oreo Caramel Shake"
+    },
+    {
+      "id": "p3-x35-b1567-0-13",
+      "page": 3,
+      "changed": [
+        328,
+        828,
+        342,
+        846
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Nutella Shak",
+      "original": "Nutella Shake"
+    },
+    {
+      "id": "p3-x35-b1582-0-14",
+      "page": 3,
+      "changed": [
+        781,
+        900,
+        909,
+        924
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Pasta Sandwic",
+      "original": "Pasta Sandwich"
+    },
+    {
+      "id": "p3-x35-b1598-0-19",
+      "page": 3,
+      "changed": [
+        960,
+        955,
+        974,
+        978
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Corn Burst Sandwic",
+      "original": "Corn Burst Sandwich"
+    },
+    {
+      "id": "p3-x35-b1614-0-16",
+      "page": 3,
+      "changed": [
+        838,
+        1011,
+        947,
+        1035
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mix Veg Sandwic",
+      "original": "Mix Veg Sandwich"
+    },
+    {
+      "id": "p3-x35-b1621-0-21",
+      "page": 3,
+      "changed": [
+        994,
+        1066,
+        1007,
+        1089
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer Lover Sandwic",
+      "original": "Paneer Lover Sandwich"
+    },
+    {
+      "id": "p3-x35-b1630-0-21",
+      "page": 3,
+      "changed": [
+        928,
+        1122,
+        1005,
+        1146
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer Tikka Sandwic",
+      "original": "Paneer Tikka Sandwich"
+    },
+    {
+      "id": "p3-x35-b1637-0-16",
+      "page": 3,
+      "changed": [
+        933,
+        1177,
+        947,
+        1200
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Makhani Sandwic",
+      "original": "Makhani Sandwich"
+    },
+    {
+      "id": "p3-x35-b1644-0-17",
+      "page": 3,
+      "changed": [
+        748,
+        1233,
+        952,
+        1257
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Tandoori Sandwic",
+      "original": "Tandoori Sandwich"
+    },
+    {
+      "id": "p3-x35-b1659-0-6",
+      "page": 3,
+      "changed": [
+        298,
+        339,
+        321,
+        382
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SHAKE",
+      "original": "SHAKES"
+    },
+    {
+      "id": "p3-x35-b1684-0-8",
+      "page": 3,
+      "changed": [
+        894,
+        791,
+        919,
+        833
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SANDWIC",
+      "original": "SANDWICH"
+    },
+    {
+      "id": "p3-x35-b1713-0-2",
+      "page": 3,
+      "changed": [
+        543,
+        443,
+        560,
+        465
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "79"
+    },
+    {
+      "id": "p3-x35-b1722-0-2",
+      "page": 3,
+      "changed": [
+        544,
+        497,
+        560,
+        520
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p3-x35-b1731-0-2",
+      "page": 3,
+      "changed": [
+        544,
+        551,
+        560,
+        574
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p3-x35-b1740-0-2",
+      "page": 3,
+      "changed": [
+        544,
+        605,
+        559,
+        628
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p3-x35-b1749-0-3",
+      "page": 3,
+      "changed": [
+        527,
+        659,
+        560,
+        682
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p3-x35-b1760-0-3",
+      "page": 3,
+      "changed": [
+        527,
+        713,
+        560,
+        736
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p3-x35-b1771-0-3",
+      "page": 3,
+      "changed": [
+        527,
+        767,
+        555,
+        789
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p3-x35-b1782-0-3",
+      "page": 3,
+      "changed": [
+        527,
+        821,
+        555,
+        843
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p3-x35-b1810-0-2",
+      "page": 3,
+      "changed": [
+        1068,
+        900,
+        1084,
+        923
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p3-x35-b1819-0-3",
+      "page": 3,
+      "changed": [
+        1052,
+        956,
+        1084,
+        979
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p3-x35-b1830-0-3",
+      "page": 3,
+      "changed": [
+        1052,
+        1011,
+        1080,
+        1033
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p3-x35-b1841-0-3",
+      "page": 3,
+      "changed": [
+        1052,
+        1067,
+        1084,
+        1089
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p3-x35-b1852-0-3",
+      "page": 3,
+      "changed": [
+        1052,
+        1122,
+        1084,
+        1145
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p3-x35-b1863-0-3",
+      "page": 3,
+      "changed": [
+        1052,
+        1178,
+        1085,
+        1200
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p3-x35-b1876-0-3",
+      "page": 3,
+      "changed": [
+        1052,
+        1234,
+        1084,
+        1257
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p4-x38-b547-0-5",
+      "page": 4,
+      "changed": [
+        203,
+        224,
+        226,
+        241
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Stea",
+      "original": "Steam"
+    },
+    {
+      "id": "p4-x38-b556-0-5",
+      "page": 4,
+      "changed": [
+        192,
+        284,
+        207,
+        308
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Frie",
+      "original": "Fried"
+    },
+    {
+      "id": "p4-x38-b565-0-9",
+      "page": 4,
+      "changed": [
+        245,
+        347,
+        260,
+        371
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Pan frie",
+      "original": "Pan fried"
+    },
+    {
+      "id": "p4-x38-b572-0-7",
+      "page": 4,
+      "changed": [
+        230,
+        412,
+        244,
+        430
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Kurkur",
+      "original": "Kurkure"
+    },
+    {
+      "id": "p4-x38-b579-0-10",
+      "page": 4,
+      "changed": [
+        218,
+        464,
+        298,
+        488
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Oven Bake",
+      "original": "Oven Baked"
+    },
+    {
+      "id": "p4-x38-b594-0-16",
+      "page": 4,
+      "changed": [
+        220,
+        718,
+        358,
+        748
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Veg Spring Roll",
+      "original": "Veg Spring Rolls"
+    },
+    {
+      "id": "p4-x38-b601-0-19",
+      "page": 4,
+      "changed": [
+        387,
+        789,
+        400,
+        807
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer Spring Roll",
+      "original": "Paneer Spring Rolls"
+    },
+    {
+      "id": "p4-x1182-b7-0-19",
+      "page": 4,
+      "changed": [
+        211,
+        984,
+        401,
+        1008
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Zingy Paneer Parce",
+      "original": "Zingy Paneer Parcel"
+    },
+    {
+      "id": "p4-x1182-b16-0-12",
+      "page": 4,
+      "changed": [
+        290,
+        1110,
+        304,
+        1128
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cheese Ball",
+      "original": "Cheese Balls"
+    },
+    {
+      "id": "p4-x1182-b25-0-19",
+      "page": 4,
+      "changed": [
+        373,
+        1170,
+        387,
+        1188
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Garlic Bread Stick",
+      "original": "Garlic Bread Sticks"
+    },
+    {
+      "id": "p4-x1182-b34-0-12",
+      "page": 4,
+      "changed": [
+        197,
+        1230,
+        302,
+        1254
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Crispy Corn",
+      "original": "Crispy Corns"
+    },
+    {
+      "id": "p4-x1182-b43-0-20",
+      "page": 4,
+      "changed": [
+        194,
+        1282,
+        404,
+        1307
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Stuffed Garlic Brea",
+      "original": "Stuffed Garlic Bread"
+    },
+    {
+      "id": "p4-x1182-b59-0-13",
+      "page": 4,
+      "changed": [
+        180,
+        1342,
+        293,
+        1367
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Chilli Potat",
+      "original": "Chilli Potato"
+    },
+    {
+      "id": "p4-x1182-b68-0-19",
+      "page": 4,
+      "changed": [
+        284,
+        1402,
+        390,
+        1426
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Honey Chilli Potat",
+      "original": "Honey Chilli Potato"
+    },
+    {
+      "id": "p4-x1182-b84-0-18",
+      "page": 4,
+      "changed": [
+        308,
+        1474,
+        387,
+        1492
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Corn Salt & Peppe",
+      "original": "Corn Salt & Pepper"
+    },
+    {
+      "id": "p4-x38-b634-0-19",
+      "page": 4,
+      "changed": [
+        613,
+        76,
+        636,
+        108
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "HEALTHY WHOLE-WHEA",
+      "original": "HEALTHY WHOLE-WHEAT"
+    },
+    {
+      "id": "p4-x38-b679-0-5",
+      "page": 4,
+      "changed": [
+        315,
+        131,
+        347,
+        174
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "MOMO",
+      "original": "MOMOS"
+    },
+    {
+      "id": "p4-x38-b702-0-8",
+      "page": 4,
+      "changed": [
+        368,
+        878,
+        398,
+        920
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "STARTER",
+      "original": "STARTERS"
+    },
+    {
+      "id": "p4-x38-b731-0-12",
+      "page": 4,
+      "changed": [
+        480,
+        573,
+        510,
+        615
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SPRING ROLL",
+      "original": "SPRING ROLLS"
+    },
+    {
+      "id": "p4-x38-b768-0-2",
+      "page": 4,
+      "changed": [
+        530,
+        981,
+        547,
+        1003
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "49"
+    },
+    {
+      "id": "p4-x38-b779-0-2",
+      "page": 4,
+      "changed": [
+        530,
+        1104,
+        546,
+        1127
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p4-x38-b788-0-3",
+      "page": 4,
+      "changed": [
+        514,
+        1165,
+        542,
+        1187
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p4-x38-b799-0-3",
+      "page": 4,
+      "changed": [
+        514,
+        1227,
+        546,
+        1250
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p4-x38-b810-0-3",
+      "page": 4,
+      "changed": [
+        514,
+        1288,
+        547,
+        1310
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p4-x38-b821-0-3",
+      "page": 4,
+      "changed": [
+        514,
+        1350,
+        546,
+        1373
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p4-x38-b832-0-3",
+      "page": 4,
+      "changed": [
+        514,
+        1411,
+        546,
+        1434
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p4-x38-b843-0-3",
+      "page": 4,
+      "changed": [
+        514,
+        1473,
+        546,
+        1496
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p4-x38-b862-0-3",
+      "page": 4,
+      "changed": [
+        518,
+        717,
+        550,
+        740
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p4-x38-b871-0-3",
+      "page": 4,
+      "changed": [
+        518,
+        783,
+        551,
+        805
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p4-x38-b890-0-3",
+      "page": 4,
+      "changed": [
+        496,
+        232,
+        524,
+        254
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p4-x38-b901-0-3",
+      "page": 4,
+      "changed": [
+        496,
+        291,
+        529,
+        313
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p4-x38-b912-0-3",
+      "page": 4,
+      "changed": [
+        496,
+        349,
+        528,
+        372
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p4-x38-b923-0-3",
+      "page": 4,
+      "changed": [
+        496,
+        408,
+        529,
+        431
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p4-x38-b934-0-3",
+      "page": 4,
+      "changed": [
+        496,
+        466,
+        529,
+        489
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p4-x38-b966-0-3",
+      "page": 4,
+      "changed": [
+        677,
+        717,
+        709,
+        740
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p4-x38-b975-0-3",
+      "page": 4,
+      "changed": [
+        677,
+        783,
+        709,
+        805
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "179"
+    },
+    {
+      "id": "p4-x38-b994-0-3",
+      "page": 4,
+      "changed": [
+        656,
+        232,
+        688,
+        254
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p4-x38-b1003-0-3",
+      "page": 4,
+      "changed": [
+        656,
+        291,
+        688,
+        314
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p4-x38-b1012-0-3",
+      "page": 4,
+      "changed": [
+        656,
+        349,
+        688,
+        372
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p4-x38-b1021-0-3",
+      "page": 4,
+      "changed": [
+        656,
+        408,
+        688,
+        431
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "189"
+    },
+    {
+      "id": "p4-x38-b1030-0-3",
+      "page": 4,
+      "changed": [
+        656,
+        466,
+        688,
+        489
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "189"
+    },
+    {
+      "id": "p4-x38-b1106-0-6",
+      "page": 4,
+      "changed": [
+        719,
+        161,
+        730,
+        176
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "PANEE",
+      "original": "PANEER"
+    },
+    {
+      "id": "p4-x38-b1131-0-3",
+      "page": 4,
+      "changed": [
+        668,
+        663,
+        682,
+        678
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "PA",
+      "original": "PAN"
+    },
+    {
+      "id": "p4-x38-b1153-0-5",
+      "page": 4,
+      "changed": [
+        755,
+        663,
+        767,
+        678
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "FRIE",
+      "original": "FRIED"
+    },
+    {
+      "id": "p4-x38-b1176-0-5",
+      "page": 4,
+      "changed": [
+        567,
+        663,
+        579,
+        678
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "FRIE",
+      "original": "FRIED"
+    },
+    {
+      "id": "p4-x38-b1253-7-8",
+      "page": 4,
+      "changed": [
+        221,
+        1033,
+        235,
+        1052
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "4"
+    },
+    {
+      "id": "p4-x38-b1294-0-3",
+      "page": 4,
+      "changed": [
+        353,
+        1033,
+        382,
+        1051
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b216-0-14",
+      "page": 5,
+      "changed": [
+        824,
+        1046,
+        842,
+        1070
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Aloo Patty Su",
+      "original": "Aloo Patty Sub"
+    },
+    {
+      "id": "p5-x41-b249-0-16",
+      "page": 5,
+      "changed": [
+        868,
+        1102,
+        885,
+        1126
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Spicy Veggie Su",
+      "original": "Spicy Veggie Sub"
+    },
+    {
+      "id": "p5-x41-b286-0-16",
+      "page": 5,
+      "changed": [
+        862,
+        1158,
+        880,
+        1182
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer Tikka Su",
+      "original": "Paneer Tikka Sub"
+    },
+    {
+      "id": "p5-x41-b323-0-14",
+      "page": 5,
+      "changed": [
+        853,
+        1213,
+        870,
+        1237
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Veg Loaded Su",
+      "original": "Veg Loaded Sub"
+    },
+    {
+      "id": "p5-x41-b356-0-18",
+      "page": 5,
+      "changed": [
+        895,
+        1269,
+        913,
+        1293
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J Town Special Su",
+      "original": "J Town Special Sub"
+    },
+    {
+      "id": "p5-x41-b405-0-15",
+      "page": 5,
+      "changed": [
+        846,
+        651,
+        863,
+        676
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Aloo Tikki Wra",
+      "original": "Aloo Tikki Wrap"
+    },
+    {
+      "id": "p5-x41-b440-0-11",
+      "page": 5,
+      "changed": [
+        820,
+        706,
+        837,
+        731
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Masala Wra",
+      "original": "Masala Wrap"
+    },
+    {
+      "id": "p5-x41-b469-0-18",
+      "page": 5,
+      "changed": [
+        918,
+        762,
+        935,
+        787
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Crispy Veggie Wra",
+      "original": "Crispy Veggie Wrap"
+    },
+    {
+      "id": "p5-x41-b510-0-17",
+      "page": 5,
+      "changed": [
+        904,
+        817,
+        922,
+        842
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Salsa Paneer Wra",
+      "original": "Salsa Paneer Wrap"
+    },
+    {
+      "id": "p5-x41-b551-0-19",
+      "page": 5,
+      "changed": [
+        931,
+        873,
+        948,
+        898
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J Town Special Wra",
+      "original": "J Town Special Wrap"
+    },
+    {
+      "id": "p5-x41-b602-0-13",
+      "page": 5,
+      "changed": [
+        808,
+        206,
+        822,
+        224
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Classic Frie",
+      "original": "Classic Fries"
+    },
+    {
+      "id": "p5-x41-b635-0-15",
+      "page": 5,
+      "changed": [
+        817,
+        261,
+        831,
+        279
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Peri Peri Frie",
+      "original": "Peri Peri Fries"
+    },
+    {
+      "id": "p5-x41-b672-0-13",
+      "page": 5,
+      "changed": [
+        824,
+        317,
+        838,
+        335
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mexican Frie",
+      "original": "Mexican Fries"
+    },
+    {
+      "id": "p5-x41-b705-0-18",
+      "page": 5,
+      "changed": [
+        898,
+        372,
+        912,
+        390
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cheese Burst Frie",
+      "original": "Cheese Burst Fries"
+    },
+    {
+      "id": "p5-x41-b746-0-22",
+      "page": 5,
+      "changed": [
+        956,
+        422,
+        960,
+        445
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cheese Burst Peri Per",
+      "original": "Cheese Burst Peri Peri"
+    },
+    {
+      "id": "p5-x41-b803-0-4",
+      "page": 5,
+      "changed": [
+        733,
+        953,
+        763,
+        995
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SUB",
+      "original": "SUBS"
+    },
+    {
+      "id": "p5-x41-b833-0-9",
+      "page": 5,
+      "changed": [
+        876,
+        87,
+        906,
+        129
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "MAD FRIE",
+      "original": "MAD FRIES"
+    },
+    {
+      "id": "p5-x41-b864-0-3",
+      "page": 5,
+      "changed": [
+        1027,
+        1045,
+        1048,
+        1068
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p5-x41-b875-0-3",
+      "page": 5,
+      "changed": [
+        1021,
+        1101,
+        1049,
+        1124
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p5-x41-b886-0-3",
+      "page": 5,
+      "changed": [
+        1017,
+        1156,
+        1048,
+        1179
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b897-0-3",
+      "page": 5,
+      "changed": [
+        1017,
+        1212,
+        1048,
+        1235
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b908-0-3",
+      "page": 5,
+      "changed": [
+        1022,
+        1267,
+        1049,
+        1290
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "179"
+    },
+    {
+      "id": "p5-x41-b927-0-2",
+      "page": 5,
+      "changed": [
+        1035,
+        643,
+        1052,
+        667
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p5-x41-b936-0-2",
+      "page": 5,
+      "changed": [
+        1036,
+        698,
+        1052,
+        722
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p5-x41-b945-0-3",
+      "page": 5,
+      "changed": [
+        1022,
+        754,
+        1052,
+        777
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p5-x41-b956-0-3",
+      "page": 5,
+      "changed": [
+        1024,
+        809,
+        1053,
+        832
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p5-x41-b967-0-3",
+      "page": 5,
+      "changed": [
+        1021,
+        865,
+        1052,
+        888
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b986-0-2",
+      "page": 5,
+      "changed": [
+        1035,
+        199,
+        1052,
+        223
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p5-x41-b995-0-2",
+      "page": 5,
+      "changed": [
+        1036,
+        254,
+        1052,
+        278
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p5-x41-b1004-0-3",
+      "page": 5,
+      "changed": [
+        1030,
+        310,
+        1051,
+        333
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p5-x41-b1015-0-3",
+      "page": 5,
+      "changed": [
+        1023,
+        365,
+        1052,
+        389
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p5-x41-b1028-0-3",
+      "page": 5,
+      "changed": [
+        1021,
+        421,
+        1052,
+        444
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b1103-0-5",
+      "page": 5,
+      "changed": [
+        798,
+        532,
+        828,
+        574
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "WRAP",
+      "original": "WRAPS"
+    },
+    {
+      "id": "p6-x44-b1193-0-14",
+      "page": 6,
+      "changed": [
+        365,
+        1366,
+        378,
+        1378
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mango Smoothi",
+      "original": "Mango Smoothie"
+    },
+    {
+      "id": "p6-x44-b1247-0-10",
+      "page": 6,
+      "changed": [
+        538,
+        1359,
+        551,
+        1377
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cold Drin",
+      "original": "Cold Drink"
+    },
+    {
+      "id": "p6-x44-b1295-0-11",
+      "page": 6,
+      "changed": [
+        774,
+        1366,
+        787,
+        1378
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mint Mojit",
+      "original": "Mint Mojito"
+    },
+    {
+      "id": "p6-x44-b1343-0-11",
+      "page": 6,
+      "changed": [
+        1027,
+        1366,
+        1039,
+        1378
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cold Coffe",
+      "original": "Cold Coffee"
+    },
+    {
+      "id": "p6-x44-b1667-0-12",
+      "page": 6,
+      "changed": [
+        352,
+        479,
+        369,
+        495
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Plain Maggi",
+      "original": "Plain Maggie"
+    },
+    {
+      "id": "p6-x44-b1711-0-13",
+      "page": 6,
+      "changed": [
+        371,
+        986,
+        387,
+        1002
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J-Town Maggi",
+      "original": "J-Town Maggie"
+    },
+    {
+      "id": "p6-x44-b1763-0-9",
+      "page": 6,
+      "changed": [
+        654,
+        986,
+        671,
+        1002
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Veg. Poh",
+      "original": "Veg. Poha"
+    },
+    {
+      "id": "p6-x44-b1843-0-19",
+      "page": 6,
+      "changed": [
+        679,
+        1038,
+        682,
+        1042
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "onions, and spices",
+      "original": "onions, and spices."
+    },
+    {
+      "id": "p6-x44-b1894-0-13",
+      "page": 6,
+      "changed": [
+        693,
+        479,
+        710,
+        495
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cheese Maggi",
+      "original": "Cheese Maggie"
+    },
+    {
+      "id": "p6-x44-b1951-0-7",
+      "page": 6,
+      "changed": [
+        583,
+        512,
+        587,
+        518
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "cheese",
+      "original": "cheese,"
+    },
+    {
+      "id": "p6-x44-b1981-0-6",
+      "page": 6,
+      "changed": [
+        650,
+        505,
+        661,
+        520
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "cream",
+      "original": "creamy"
+    },
+    {
+      "id": "p6-x44-b2009-0-5",
+      "page": 6,
+      "changed": [
+        718,
+        501,
+        722,
+        515
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Magg",
+      "original": "Maggi"
+    },
+    {
+      "id": "p6-x44-b2024-0-8",
+      "page": 6,
+      "changed": [
+        569,
+        531,
+        573,
+        537
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "noodles",
+      "original": "noodles,"
+    },
+    {
+      "id": "p6-x44-b2056-0-6",
+      "page": 6,
+      "changed": [
+        628,
+        524,
+        639,
+        539
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "savor",
+      "original": "savory"
+    },
+    {
+      "id": "p6-x44-b2084-0-6",
+      "page": 6,
+      "changed": [
+        691,
+        524,
+        700,
+        535
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "spice",
+      "original": "spices"
+    },
+    {
+      "id": "p6-x44-b2124-0-11",
+      "page": 6,
+      "changed": [
+        1004,
+        986,
+        1022,
+        1002
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J-Town Poh",
+      "original": "J-Town Poha"
+    },
+    {
+      "id": "p6-x44-b2212-0-20",
+      "page": 6,
+      "changed": [
+        941,
+        1028,
+        1019,
+        1042
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "rice,spices, &peanu",
+      "original": "rice,spices, &peanut"
+    },
+    {
+      "id": "p6-x44-b2280-0-15",
+      "page": 6,
+      "changed": [
+        1038,
+        479,
+        1054,
+        495
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Tandoori Maggi",
+      "original": "Tandoori Maggie"
+    },
+    {
+      "id": "p6-x44-b2317-0-5",
+      "page": 6,
+      "changed": [
+        849,
+        505,
+        860,
+        520
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Smok",
+      "original": "Smoky"
+    },
+    {
+      "id": "p6-x44-b2343-0-7",
+      "page": 6,
+      "changed": [
+        864,
+        501,
+        919,
+        516
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "lavor:",
+      "original": "flavor:"
+    },
+    {
+      "id": "p6-x44-b2373-0-5",
+      "page": 6,
+      "changed": [
+        976,
+        501,
+        980,
+        515
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Magg",
+      "original": "Maggi"
+    },
+    {
+      "id": "p6-x44-b2399-0-8",
+      "page": 6,
+      "changed": [
+        1056,
+        512,
+        1060,
+        518
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "noodles",
+      "original": "noodles,"
+    },
+    {
+      "id": "p6-x44-b2420-0-8",
+      "page": 6,
+      "changed": [
+        893,
+        520,
+        897,
+        534
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "tandoor",
+      "original": "tandoori"
+    },
+    {
+      "id": "p6-x44-b2452-0-7",
+      "page": 6,
+      "changed": [
+        959,
+        531,
+        963,
+        537
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "spices",
+      "original": "spices,"
+    },
+    {
+      "id": "p6-x44-b2482-0-7",
+      "page": 6,
+      "changed": [
+        1029,
+        524,
+        1038,
+        535
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "veggie",
+      "original": "veggies"
+    },
+    {
+      "id": "p6-x44-b2524-0-7",
+      "page": 6,
+      "changed": [
+        254,
+        517,
+        265,
+        528
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Classi",
+      "original": "Classic"
+    },
+    {
+      "id": "p6-x44-b2554-0-7",
+      "page": 6,
+      "changed": [
+        337,
+        517,
+        341,
+        528
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Maggie",
+      "original": "Maggie:"
+    },
+    {
+      "id": "p6-x44-b2581-0-8",
+      "page": 6,
+      "changed": [
+        235,
+        544,
+        239,
+        550
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "noodles",
+      "original": "noodles,"
+    },
+    {
+      "id": "p6-x44-b2613-0-6",
+      "page": 6,
+      "changed": [
+        301,
+        537,
+        312,
+        548
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "masal",
+      "original": "masala"
+    },
+    {
+      "id": "p6-x44-b2659-0-5",
+      "page": 6,
+      "changed": [
+        373,
+        544,
+        377,
+        548
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "love",
+      "original": "love."
+    },
+    {
+      "id": "p6-x44-b2682-0-9",
+      "page": 6,
+      "changed": [
+        235,
+        1024,
+        245,
+        1035
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Authenti",
+      "original": "Authentic"
+    },
+    {
+      "id": "p6-x44-b2716-0-6",
+      "page": 6,
+      "changed": [
+        307,
+        1024,
+        317,
+        1034
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J-Tow",
+      "original": "J-Town"
+    },
+    {
+      "id": "p6-x44-b2744-0-7",
+      "page": 6,
+      "changed": [
+        374,
+        1024,
+        377,
+        1035
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "flavor",
+      "original": "flavor:"
+    },
+    {
+      "id": "p6-x44-b2771-0-6",
+      "page": 6,
+      "changed": [
+        149,
+        1040,
+        209,
+        1059
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "aggi,",
+      "original": "Maggi,"
+    },
+    {
+      "id": "p6-x44-b2799-0-5",
+      "page": 6,
+      "changed": [
+        256,
+        1044,
+        267,
+        1059
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "tang",
+      "original": "tangy"
+    },
+    {
+      "id": "p6-x44-b2825-0-7",
+      "page": 6,
+      "changed": [
+        328,
+        1051,
+        332,
+        1057
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "spices",
+      "original": "spices,"
+    },
+    {
+      "id": "p6-x44-b2855-0-5",
+      "page": 6,
+      "changed": [
+        379,
+        1044,
+        387,
+        1055
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "herb",
+      "original": "herbs"
+    },
+    {
+      "id": "p6-x44-b2893-0-2",
+      "page": 6,
+      "changed": [
+        245,
+        587,
+        284,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "59"
+    },
+    {
+      "id": "p6-x44-b2925-0-3",
+      "page": 6,
+      "changed": [
+        245,
+        1094,
+        287,
+        1120
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p6-x44-b2959-0-2",
+      "page": 6,
+      "changed": [
+        573,
+        587,
+        610,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "79"
+    },
+    {
+      "id": "p6-x44-b2991-0-2",
+      "page": 6,
+      "changed": [
+        574,
+        1094,
+        611,
+        1120
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "79"
+    },
+    {
+      "id": "p6-x44-b3023-0-2",
+      "page": 6,
+      "changed": [
+        925,
+        587,
+        942,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p6-x44-b3055-0-2",
+      "page": 6,
+      "changed": [
+        926,
+        1094,
+        943,
+        1120
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p6-x44-b3087-0-2",
+      "page": 6,
+      "changed": [
+        252,
+        1484,
+        267,
+        1505
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p6-x44-b3104-0-3",
+      "page": 6,
+      "changed": [
+        450,
+        1483,
+        505,
+        1504
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "MRP"
+    },
+    {
+      "id": "p6-x44-b3138-0-2",
+      "page": 6,
+      "changed": [
+        695,
+        1484,
+        727,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p6-x44-b3170-0-2",
+      "page": 6,
+      "changed": [
+        928,
+        1484,
+        961,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p6-x44-b3209-0-13",
+      "page": 6,
+      "changed": [
+        498,
+        67,
+        533,
+        104
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "MAGGIE & POH",
+      "original": "MAGGIE & POHA"
+    },
+    {
+      "id": "p6-x44-b3248-0-8",
+      "page": 6,
+      "changed": [
+        303,
+        1237,
+        327,
+        1261
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Beverag",
+      "original": "Beverage"
+    },
+    {
+      "id": "p7-x47-b1194-0-13",
+      "page": 7,
+      "changed": [
+        200,
+        467,
+        386,
+        493
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Hakka Noodle",
+      "original": "Hakka Noodles"
+    },
+    {
+      "id": "p7-x47-b1248-0-13",
+      "page": 7,
+      "changed": [
+        339,
+        984,
+        352,
+        1000
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Chilli Garli",
+      "original": "Chilli Garlic"
+    },
+    {
+      "id": "p7-x47-b1321-0-17",
+      "page": 7,
+      "changed": [
+        720,
+        477,
+        733,
+        493
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Singapuri Noodle",
+      "original": "Singapuri Noodles"
+    },
+    {
+      "id": "p7-x47-b1383-0-14",
+      "page": 7,
+      "changed": [
+        689,
+        983,
+        701,
+        998
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cheese Noodle",
+      "original": "Cheese Noodles"
+    },
+    {
+      "id": "p7-x47-b1418-0-23",
+      "page": 7,
+      "changed": [
+        701,
+        1038,
+        705,
+        1044
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cheesy delight:Noodles",
+      "original": "Cheesy delight:Noodles,"
+    },
+    {
+      "id": "p7-x47-b1469-0-20",
+      "page": 7,
+      "changed": [
+        692,
+        1057,
+        696,
+        1061
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "creamy cheese,herbs",
+      "original": "creamy cheese,herbs."
+    },
+    {
+      "id": "p7-x47-b1544-0-11",
+      "page": 7,
+      "changed": [
+        994,
+        989,
+        1007,
+        1005
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Veg Noodle",
+      "original": "Veg Noodles"
+    },
+    {
+      "id": "p7-x47-b1594-0-16",
+      "page": 7,
+      "changed": [
+        1047,
+        477,
+        1060,
+        493
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Schezwan Noodle",
+      "original": "Schezwan Noodles"
+    },
+    {
+      "id": "p7-x47-b1654-0-27",
+      "page": 7,
+      "changed": [
+        711,
+        521,
+        715,
+        527
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Boldflavors: curry,veggies",
+      "original": "Boldflavors: curry,veggies,"
+    },
+    {
+      "id": "p7-x47-b1713-0-16",
+      "page": 7,
+      "changed": [
+        662,
+        534,
+        671,
+        545
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "soy,rice noodle",
+      "original": "soy,rice noodles"
+    },
+    {
+      "id": "p7-x47-b1758-0-27",
+      "page": 7,
+      "changed": [
+        1039,
+        521,
+        1043,
+        527
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Boldflavors: curry,veggies",
+      "original": "Boldflavors: curry,veggies,"
+    },
+    {
+      "id": "p7-x47-b1817-0-17",
+      "page": 7,
+      "changed": [
+        997,
+        541,
+        1001,
+        545
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "soy,rice noodles",
+      "original": "soy,rice noodles."
+    },
+    {
+      "id": "p7-x47-b1864-0-29",
+      "page": 7,
+      "changed": [
+        1043,
+        1029,
+        1053,
+        1043
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Stir-fried noodles with fres",
+      "original": "Stir-fried noodles with fresh"
+    },
+    {
+      "id": "p7-x47-b1935-0-19",
+      "page": 7,
+      "changed": [
+        1004,
+        1060,
+        1008,
+        1064
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "veggies and spices",
+      "original": "veggies and spices."
+    },
+    {
+      "id": "p7-x47-b2001-0-3",
+      "page": 7,
+      "changed": [
+        244,
+        585,
+        294,
+        612
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p7-x47-b2035-0-3",
+      "page": 7,
+      "changed": [
+        244,
+        1097,
+        296,
+        1123
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p7-x47-b2069-0-3",
+      "page": 7,
+      "changed": [
+        573,
+        1097,
+        625,
+        1123
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p7-x47-b2103-0-3",
+      "page": 7,
+      "changed": [
+        573,
+        585,
+        625,
+        611
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p7-x47-b2137-0-3",
+      "page": 7,
+      "changed": [
+        902,
+        585,
+        954,
+        611
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "169"
+    },
+    {
+      "id": "p7-x47-b2171-0-3",
+      "page": 7,
+      "changed": [
+        902,
+        1097,
+        951,
+        1123
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "179"
+    },
+    {
+      "id": "p7-x47-b2212-0-7",
+      "page": 7,
+      "changed": [
+        331,
+        82,
+        358,
+        120
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "NOODLE",
+      "original": "NOODLES"
+    },
+    {
+      "id": "p7-x47-b2239-0-13",
+      "page": 7,
+      "changed": [
+        269,
+        1360,
+        371,
+        1378
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Lemon Ice Te",
+      "original": "Lemon Ice Tea"
+    },
+    {
+      "id": "p7-x47-b2291-0-10",
+      "page": 7,
+      "changed": [
+        538,
+        1359,
+        551,
+        1377
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cold Drin",
+      "original": "Cold Drink"
+    },
+    {
+      "id": "p7-x47-b2339-0-11",
+      "page": 7,
+      "changed": [
+        774,
+        1366,
+        787,
+        1378
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mint Mojit",
+      "original": "Mint Mojito"
+    },
+    {
+      "id": "p7-x47-b2387-0-11",
+      "page": 7,
+      "changed": [
+        1027,
+        1366,
+        1039,
+        1378
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cold Coffe",
+      "original": "Cold Coffee"
+    },
+    {
+      "id": "p7-x47-b2710-0-2",
+      "page": 7,
+      "changed": [
+        235,
+        1484,
+        267,
+        1505
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "69"
+    },
+    {
+      "id": "p7-x47-b2727-0-3",
+      "page": 7,
+      "changed": [
+        450,
+        1483,
+        505,
+        1504
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "MRP"
+    },
+    {
+      "id": "p7-x47-b2761-0-2",
+      "page": 7,
+      "changed": [
+        695,
+        1484,
+        727,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p7-x47-b2793-0-2",
+      "page": 7,
+      "changed": [
+        928,
+        1484,
+        961,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p7-x47-b2810-0-8",
+      "page": 7,
+      "changed": [
+        303,
+        1237,
+        327,
+        1261
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Beverag",
+      "original": "Beverage"
+    },
+    {
+      "id": "p7-x47-b3239-0-26",
+      "page": 7,
+      "changed": [
+        380,
+        523,
+        384,
+        529
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Fresh vegetables, noodles",
+      "original": "Fresh vegetables, noodles,"
+    },
+    {
+      "id": "p7-x47-b3296-0-15",
+      "page": 7,
+      "changed": [
+        300,
+        536,
+        331,
+        547
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "flavorfulspice",
+      "original": "flavorfulspices"
+    },
+    {
+      "id": "p7-x47-b3390-0-18",
+      "page": 7,
+      "changed": [
+        334,
+        1061,
+        337,
+        1065
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "chili,garlic, soy",
+      "original": "chili,garlic, soy."
+    },
+    {
+      "id": "p8-x50-b1772-0-3",
+      "page": 8,
+      "changed": [
+        427,
+        752,
+        479,
+        777
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p8-x1395-b7-0-13",
+      "page": 8,
+      "changed": [
+        855,
+        808,
+        876,
+        828
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Alfredo Whit",
+      "original": "Alfredo White"
+    },
+    {
+      "id": "p8-x1395-b38-0-5",
+      "page": 8,
+      "changed": [
+        852,
+        849,
+        875,
+        869
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Past",
+      "original": "Pasta"
+    },
+    {
+      "id": "p8-x1395-b109-0-3",
+      "page": 8,
+      "changed": [
+        824,
+        904,
+        876,
+        929
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p8-x50-b1811-0-16",
+      "page": 8,
+      "changed": [
+        729,
+        1019,
+        738,
+        1049
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Tandoori/Makhan",
+      "original": "Tandoori/Makhani"
+    },
+    {
+      "id": "p8-x50-b1848-0-5",
+      "page": 8,
+      "changed": [
+        462,
+        1072,
+        484,
+        1092
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Past",
+      "original": "Pasta"
+    },
+    {
+      "id": "p8-x50-b1935-0-3",
+      "page": 8,
+      "changed": [
+        418,
+        1153,
+        470,
+        1178
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p8-x50-b2098-0-9",
+      "page": 8,
+      "changed": [
+        760,
+        1247,
+        782,
+        1267
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mix Past",
+      "original": "Mix Pasta"
+    },
+    {
+      "id": "p8-x50-b2177-0-3",
+      "page": 8,
+      "changed": [
+        732,
+        1302,
+        783,
+        1327
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p8-x50-b2214-0-14",
+      "page": 8,
+      "changed": [
+        675,
+        617,
+        698,
+        649
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Arrabbiata Re",
+      "original": "Arrabbiata Red"
+    },
+    {
+      "id": "p8-x50-b2247-0-5",
+      "page": 8,
+      "changed": [
+        486,
+        671,
+        509,
+        691
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Past",
+      "original": "Pasta"
+    },
+    {
+      "id": "p8-x50-b2301-0-5",
+      "page": 8,
+      "changed": [
+        621,
+        224,
+        1047,
+        439
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "PAST",
+      "original": "PASTA"
+    },
+    {
+      "id": "p8-x50-b2381-0-7",
+      "page": 8,
+      "changed": [
+        575,
+        120,
+        939,
+        271
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SPECIA",
+      "original": "SPECIAL"
+    },
+    {
+      "id": "p9-x53-b546-0-9",
+      "page": 9,
+      "changed": [
+        446,
+        112,
+        482,
+        162
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "BEVERAGE",
+      "original": "BEVERAGES"
+    },
+    {
+      "id": "p9-x53-b599-0-35",
+      "page": 9,
+      "changed": [
+        1026,
+        96,
+        1043,
+        128
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Coffee is always delicious to drin",
+      "original": "Coffee is always delicious to drink"
+    },
+    {
+      "id": "p9-x53-b674-0-24",
+      "page": 9,
+      "changed": [
+        949,
+        159,
+        961,
+        177
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "anywhere and with anyon",
+      "original": "anywhere and with anyone"
+    },
+    {
+      "id": "p9-x53-b735-0-8",
+      "page": 9,
+      "changed": [
+        400,
+        634,
+        414,
+        660
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Hazelnu",
+      "original": "Hazelnut"
+    },
+    {
+      "id": "p9-x53-b779-0-11",
+      "page": 9,
+      "changed": [
+        449,
+        1060,
+        469,
+        1080
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cold Coffe",
+      "original": "Cold Coffee"
+    },
+    {
+      "id": "p9-x53-b829-0-10",
+      "page": 9,
+      "changed": [
+        456,
+        421,
+        477,
+        441
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cappuccin",
+      "original": "Cappuccino"
+    },
+    {
+      "id": "p9-x53-b877-0-14",
+      "page": 9,
+      "changed": [
+        523,
+        1361,
+        543,
+        1381
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Caramel Coffe",
+      "original": "Caramel Coffee"
+    },
+    {
+      "id": "p9-x53-b933-0-3",
+      "page": 9,
+      "changed": [
+        347,
+        279,
+        379,
+        322
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "HO",
+      "original": "HOT"
+    },
+    {
+      "id": "p9-x53-b959-0-17",
+      "page": 9,
+      "changed": [
+        422,
+        704,
+        434,
+        720
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Hazelnut tastean",
+      "original": "Hazelnut tasteand"
+    },
+    {
+      "id": "p9-x53-b1006-0-10",
+      "page": 9,
+      "changed": [
+        362,
+        734,
+        371,
+        747
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "aromaby u",
+      "original": "aromaby us"
+    },
+    {
+      "id": "p9-x53-b1039-0-14",
+      "page": 9,
+      "changed": [
+        388,
+        496,
+        400,
+        509
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Thebest coffe",
+      "original": "Thebest coffee"
+    },
+    {
+      "id": "p9-x53-b1080-0-19",
+      "page": 9,
+      "changed": [
+        445,
+        523,
+        451,
+        535
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "formulated with ou",
+      "original": "formulated with our"
+    },
+    {
+      "id": "p9-x53-b1131-0-15",
+      "page": 9,
+      "changed": [
+        397,
+        547,
+        409,
+        563
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "signature blen",
+      "original": "signature blend"
+    },
+    {
+      "id": "p9-x53-b1174-0-21",
+      "page": 9,
+      "changed": [
+        473,
+        1123,
+        483,
+        1138
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cold Coffeebrewedwit",
+      "original": "Cold Coffeebrewedwith"
+    },
+    {
+      "id": "p9-x53-b1229-0-23",
+      "page": 9,
+      "changed": [
+        459,
+        1152,
+        469,
+        1164
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "love especially for yo",
+      "original": "love especially for you"
+    },
+    {
+      "id": "p9-x53-b1288-0-23",
+      "page": 9,
+      "changed": [
+        498,
+        1429,
+        510,
+        1442
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Caremel taste and arom",
+      "original": "Caremel taste and aroma"
+    },
+    {
+      "id": "p9-x53-b1339-0-4",
+      "page": 9,
+      "changed": [
+        279,
+        1454,
+        288,
+        1467
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "byu",
+      "original": "byus"
+    },
+    {
+      "id": "p9-x53-b1360-0-2",
+      "page": 9,
+      "changed": [
+        560,
+        415,
+        579,
+        446
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1377-0-2",
+      "page": 9,
+      "changed": [
+        559,
+        627,
+        580,
+        657
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p9-x53-b1394-0-2",
+      "page": 9,
+      "changed": [
+        562,
+        1057,
+        582,
+        1087
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "79"
+    },
+    {
+      "id": "p9-x53-b1411-0-2",
+      "page": 9,
+      "changed": [
+        565,
+        1355,
+        586,
+        1385
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p9-x53-b1428-0-20",
+      "page": 9,
+      "changed": [
+        914,
+        1128,
+        929,
+        1144
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Hazelnut Cold Coffe",
+      "original": "Hazelnut Cold Coffee"
+    },
+    {
+      "id": "p9-x53-b1475-0-26",
+      "page": 9,
+      "changed": [
+        985,
+        1179,
+        1010,
+        1194
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Cold Coffee with Ice Crea",
+      "original": "Cold Coffee with Ice Cream"
+    },
+    {
+      "id": "p9-x53-b1532-0-13",
+      "page": 9,
+      "changed": [
+        824,
+        1230,
+        840,
+        1246
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Lemon Ice Te",
+      "original": "Lemon Ice Tea"
+    },
+    {
+      "id": "p9-x53-b1571-0-2",
+      "page": 9,
+      "changed": [
+        1058,
+        1120,
+        1073,
+        1142
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p9-x53-b1580-0-3",
+      "page": 9,
+      "changed": [
+        1046,
+        1176,
+        1073,
+        1197
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p9-x53-b1591-0-2",
+      "page": 9,
+      "changed": [
+        1058,
+        1231,
+        1073,
+        1252
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1608-0-4",
+      "page": 9,
+      "changed": [
+        367,
+        873,
+        404,
+        913
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "COL",
+      "original": "COLD"
+    },
+    {
+      "id": "p10-x56-b351-2-5",
+      "page": 10,
+      "changed": [
+        735,
+        575,
+        789,
+        600
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p10-x56-b351-10-13",
+      "page": 10,
+      "changed": [
+        859,
+        575,
+        919,
+        601
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "259"
+    },
+    {
+      "id": "p10-x56-b351-18-21",
+      "page": 10,
+      "changed": [
+        975,
+        575,
+        1035,
+        601
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "399"
+    },
+    {
+      "id": "p10-x56-b406-2-5",
+      "page": 10,
+      "changed": [
+        735,
+        1299,
+        788,
+        1325
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "189"
+    },
+    {
+      "id": "p10-x56-b406-10-13",
+      "page": 10,
+      "changed": [
+        860,
+        1299,
+        918,
+        1325
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "339"
+    },
+    {
+      "id": "p10-x56-b406-18-21",
+      "page": 10,
+      "changed": [
+        974,
+        1299,
+        1032,
+        1324
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "479"
+    },
+    {
+      "id": "p10-x56-b461-0-7",
+      "page": 10,
+      "changed": [
+        294,
+        433,
+        316,
+        468
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "UPGRAD",
+      "original": "UPGRADE"
+    },
+    {
+      "id": "p10-x56-b484-0-12",
+      "page": 10,
+      "changed": [
+        256,
+        528,
+        265,
+        543
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "EXTRA CHEES",
+      "original": "EXTRA CHEESE"
+    },
+    {
+      "id": "p10-x56-b513-0-12",
+      "page": 10,
+      "changed": [
+        258,
+        578,
+        269,
+        593
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "CHEESE BURS",
+      "original": "CHEESE BURST"
+    },
+    {
+      "id": "p10-x56-b542-0-10",
+      "page": 10,
+      "changed": [
+        225,
+        627,
+        236,
+        642
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "THIN CRUS",
+      "original": "THIN CRUST"
+    },
+    {
+      "id": "p10-x56-b569-0-13",
+      "page": 10,
+      "changed": [
+        266,
+        676,
+        282,
+        693
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "EXTRA TOPPIN",
+      "original": "EXTRA TOPPING"
+    },
+    {
+      "id": "p10-x56-b602-0-10",
+      "page": 10,
+      "changed": [
+        223,
+        726,
+        234,
+        741
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "CHEESY DI",
+      "original": "CHEESY DIP"
+    },
+    {
+      "id": "p10-x56-b635-0-11",
+      "page": 10,
+      "changed": [
+        381,
+        827,
+        416,
+        864
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "PIZZA MANI",
+      "original": "PIZZA MANIA"
+    },
+    {
+      "id": "p10-x56-b666-0-5",
+      "page": 10,
+      "changed": [
+        161,
+        924,
+        175,
+        939
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "ONIO",
+      "original": "ONION"
+    },
+    {
+      "id": "p10-x56-b683-0-6",
+      "page": 10,
+      "changed": [
+        176,
+        971,
+        193,
+        988
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "TOMAT",
+      "original": "TOMATO"
+    },
+    {
+      "id": "p10-x56-b702-0-8",
+      "page": 10,
+      "changed": [
+        202,
+        1020,
+        217,
+        1035
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "CAPSICU",
+      "original": "CAPSICUM"
+    },
+    {
+      "id": "p10-x56-b725-0-11",
+      "page": 10,
+      "changed": [
+        262,
+        1068,
+        276,
+        1083
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "GOLDEN COR",
+      "original": "GOLDEN CORN"
+    },
+    {
+      "id": "p10-x56-b760-0-16",
+      "page": 10,
+      "changed": [
+        530,
+        1158,
+        565,
+        1195
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "DOUBLE VEG PIZZ",
+      "original": "DOUBLE VEG PIZZA"
+    },
+    {
+      "id": "p10-x56-b805-0-15",
+      "page": 10,
+      "changed": [
+        1053,
+        716,
+        1088,
+        753
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "VEG TREAT PIZZ",
+      "original": "VEG TREAT PIZZA"
+    },
+    {
+      "id": "p10-x56-b844-0-15",
+      "page": 10,
+      "changed": [
+        886,
+        798,
+        897,
+        816
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "COUNTRY SPECIA",
+      "original": "COUNTRY SPECIAL"
+    },
+    {
+      "id": "p10-x56-b881-0-23",
+      "page": 10,
+      "changed": [
+        908,
+        845,
+        919,
+        857
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Onion, Capsicum, Tomat",
+      "original": "Onion, Capsicum, Tomato"
+    },
+    {
+      "id": "p10-x56-b934-0-9",
+      "page": 10,
+      "changed": [
+        812,
+        882,
+        823,
+        900
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "FARMHOUS",
+      "original": "FARMHOUSE"
+    },
+    {
+      "id": "p10-x56-b959-0-33",
+      "page": 10,
+      "changed": [
+        1016,
+        929,
+        1027,
+        941
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mushroom, Onion, Capsicum, Tomat",
+      "original": "Mushroom, Onion, Capsicum, Tomato"
+    },
+    {
+      "id": "p10-x56-b1032-0-9",
+      "page": 10,
+      "changed": [
+        781,
+        965,
+        801,
+        985
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SPICY BA",
+      "original": "SPICY BAG"
+    },
+    {
+      "id": "p10-x56-b1057-0-27",
+      "page": 10,
+      "changed": [
+        938,
+        1013,
+        951,
+        1025
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Corn, Jalapeno, Red Peprik",
+      "original": "Corn, Jalapeno, Red Peprika"
+    },
+    {
+      "id": "p10-x56-b1118-0-12",
+      "page": 10,
+      "changed": [
+        836,
+        1050,
+        850,
+        1068
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "PANEER LOVE",
+      "original": "PANEER LOVER"
+    },
+    {
+      "id": "p10-x56-b1149-0-31",
+      "page": 10,
+      "changed": [
+        987,
+        1097,
+        999,
+        1109
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer, Onion, Capsicum, Tomat",
+      "original": "Paneer, Onion, Capsicum, Tomato"
+    },
+    {
+      "id": "p10-x56-b1218-0-12",
+      "page": 10,
+      "changed": [
+        843,
+        1134,
+        857,
+        1152
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "TANGY PANEE",
+      "original": "TANGY PANEER"
+    },
+    {
+      "id": "p10-x56-b1249-0-40",
+      "page": 10,
+      "changed": [
+        1069,
+        1181,
+        1082,
+        1193
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer, Onion, Capsicum, Tomato, Hariss",
+      "original": "Paneer, Onion, Capsicum, Tomato, Harissa"
+    },
+    {
+      "id": "p10-x56-b1334-0-5",
+      "page": 10,
+      "changed": [
+        719,
+        1219,
+        730,
+        1231
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Sauc",
+      "original": "Sauce"
+    },
+    {
+      "id": "p10-x56-b1357-0-16",
+      "page": 10,
+      "changed": [
+        1081,
+        348,
+        1116,
+        385
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SIMPLE VEG PIZZ",
+      "original": "SIMPLE VEG PIZZA"
+    },
+    {
+      "id": "p10-x56-b1398-0-24",
+      "page": 10,
+      "changed": [
+        1018,
+        446,
+        1031,
+        461
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SINGLE CHEESE MARGHERIT",
+      "original": "SINGLE CHEESE MARGHERITA"
+    },
+    {
+      "id": "p10-x56-b1451-0-17",
+      "page": 10,
+      "changed": [
+        915,
+        496,
+        929,
+        511
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "CHEESE CORN PIZZ",
+      "original": "CHEESE CORN PIZZA"
+    },
+    {
+      "id": "p10-x56-b1507-0-2",
+      "page": 10,
+      "changed": [
+        323,
+        525,
+        351,
+        542
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "45"
+    },
+    {
+      "id": "p10-x56-b1516-0-2",
+      "page": 10,
+      "changed": [
+        323,
+        574,
+        352,
+        591
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "69"
+    },
+    {
+      "id": "p10-x56-b1525-0-2",
+      "page": 10,
+      "changed": [
+        324,
+        624,
+        352,
+        641
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "30"
+    },
+    {
+      "id": "p10-x56-b1534-0-2",
+      "page": 10,
+      "changed": [
+        323,
+        674,
+        352,
+        691
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "40"
+    },
+    {
+      "id": "p10-x56-b1543-0-2",
+      "page": 10,
+      "changed": [
+        323,
+        723,
+        352,
+        740
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "20"
+    },
+    {
+      "id": "p10-x56-b1560-0-14",
+      "page": 10,
+      "changed": [
+        303,
+        1236,
+        319,
+        1251
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "ONION CAPSICU",
+      "original": "ONION CAPSICUM"
+    },
+    {
+      "id": "p10-x56-b1593-0-11",
+      "page": 10,
+      "changed": [
+        267,
+        1285,
+        280,
+        1300
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "TOMATO COR",
+      "original": "TOMATO CORN"
+    },
+    {
+      "id": "p10-x56-b1620-0-18",
+      "page": 10,
+      "changed": [
+        345,
+        1335,
+        354,
+        1350
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "JALAPENO PINEAPPL",
+      "original": "JALAPENO PINEAPPLE"
+    },
+    {
+      "id": "p10-x56-b1661-0-12",
+      "page": 10,
+      "changed": [
+        272,
+        1384,
+        283,
+        1399
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "ONION PANEE",
+      "original": "ONION PANEER"
+    },
+    {
+      "id": "p10-x56-b1690-0-13",
+      "page": 10,
+      "changed": [
+        273,
+        1434,
+        285,
+        1449
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SPICEY LOADE",
+      "original": "SPICEY LOADED"
+    },
+    {
+      "id": "p10-x56-b1723-0-15",
+      "page": 10,
+      "changed": [
+        315,
+        1483,
+        327,
+        1498
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "TANDOORI PANEE",
+      "original": "TANDOORI PANEER"
+    },
+    {
+      "id": "p10-x56-b1843-0-2",
+      "page": 10,
+      "changed": [
+        390,
+        523,
+        418,
+        540
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "65"
+    },
+    {
+      "id": "p10-x56-b1852-0-2",
+      "page": 10,
+      "changed": [
+        408,
+        573,
+        419,
+        589
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p10-x56-b1861-0-2",
+      "page": 10,
+      "changed": [
+        390,
+        622,
+        418,
+        639
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "45"
+    },
+    {
+      "id": "p10-x56-b1870-0-2",
+      "page": 10,
+      "changed": [
+        390,
+        672,
+        420,
+        689
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "60"
+    },
+    {
+      "id": "p10-x56-b1887-0-2",
+      "page": 10,
+      "changed": [
+        473,
+        924,
+        500,
+        941
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p10-x56-b1894-0-2",
+      "page": 10,
+      "changed": [
+        490,
+        972,
+        502,
+        988
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p10-x56-b1901-0-2",
+      "page": 10,
+      "changed": [
+        490,
+        1020,
+        502,
+        1036
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "99"
+    },
+    {
+      "id": "p10-x56-b1908-0-3",
+      "page": 10,
+      "changed": [
+        472,
+        1068,
+        514,
+        1085
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p10-x56-b1927-0-3",
+      "page": 10,
+      "changed": [
+        476,
+        1235,
+        512,
+        1251
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p10-x56-b1936-0-3",
+      "page": 10,
+      "changed": [
+        476,
+        1285,
+        516,
+        1301
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "129"
+    },
+    {
+      "id": "p10-x56-b1945-0-3",
+      "page": 10,
+      "changed": [
+        476,
+        1334,
+        516,
+        1351
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p10-x56-b1954-0-3",
+      "page": 10,
+      "changed": [
+        476,
+        1384,
+        516,
+        1401
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p10-x56-b1963-0-3",
+      "page": 10,
+      "changed": [
+        476,
+        1433,
+        516,
+        1449
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p10-x56-b1976-0-3",
+      "page": 10,
+      "changed": [
+        476,
+        1483,
+        517,
+        1500
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p10-x56-b2027-0-6",
+      "page": 10,
+      "changed": [
+        970,
+        60,
+        1003,
+        107
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "OFFER",
+      "original": "OFFERS"
+    },
+    {
+      "id": "p10-x1463-b7-19-20",
+      "page": 10,
+      "changed": [
+        1060,
+        165,
+        1077,
+        186
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "4"
+    },
+    {
+      "id": "p10-x1463-b7-22-25",
+      "page": 10,
+      "changed": [
+        1114,
+        165,
+        1170,
+        187
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "329"
+    },
+    {
+      "id": "p10-x1463-b64-18-19",
+      "page": 10,
+      "changed": [
+        1017,
+        231,
+        1034,
+        252
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "4"
+    },
+    {
+      "id": "p10-x1463-b64-21-24",
+      "page": 10,
+      "changed": [
+        1071,
+        231,
+        1124,
+        252
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "419"
+    },
+    {
+      "id": "p10-x56-b2070-0-2",
+      "page": 10,
+      "changed": [
+        482,
+        525,
+        494,
+        542
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "90"
+    },
+    {
+      "id": "p10-x56-b2079-0-3",
+      "page": 10,
+      "changed": [
+        459,
+        574,
+        499,
+        591
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p10-x56-b2090-0-2",
+      "page": 10,
+      "changed": [
+        465,
+        624,
+        493,
+        641
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "65"
+    },
+    {
+      "id": "p10-x56-b2099-0-2",
+      "page": 10,
+      "changed": [
+        465,
+        673,
+        493,
+        690
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "80"
+    },
+    {
+      "id": "p11-x59-b328-0-12",
+      "page": 11,
+      "changed": [
+        584,
+        692,
+        604,
+        710
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer Tikk",
+      "original": "Paneer Tikka"
+    },
+    {
+      "id": "p11-x59-b380-0-13",
+      "page": 11,
+      "changed": [
+        613,
+        820,
+        633,
+        838
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Mexican Pizz",
+      "original": "Mexican Pizza"
+    },
+    {
+      "id": "p11-x59-b434-0-13",
+      "page": 11,
+      "changed": [
+        698,
+        271,
+        716,
+        297
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Triple Chees",
+      "original": "Triple Cheesy"
+    },
+    {
+      "id": "p11-x1484-b7-0-14",
+      "page": 11,
+      "changed": [
+        712,
+        420,
+        723,
+        437
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Makhani Panee",
+      "original": "Makhani Paneer"
+    },
+    {
+      "id": "p11-x1485-b7-0-15",
+      "page": 11,
+      "changed": [
+        800,
+        1077,
+        821,
+        1095
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Veg Queen Pizz",
+      "original": "Veg Queen Pizza"
+    },
+    {
+      "id": "p11-x59-b521-0-20",
+      "page": 11,
+      "changed": [
+        477,
+        1333,
+        506,
+        1358
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J-Town Special Pizz",
+      "original": "J-Town Special Pizza"
+    },
+    {
+      "id": "p11-x59-b704-0-34",
+      "page": 11,
+      "changed": [
+        466,
+        1393,
+        478,
+        1402
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "“Crafted by You, Perfected by us!",
+      "original": "“Crafted by You, Perfected by us!”"
+    },
+    {
+      "id": "p11-x59-b1319-0-20",
+      "page": 11,
+      "changed": [
+        649,
+        124,
+        684,
+        161
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SPECIAL LOADED PIZZ",
+      "original": "SPECIAL LOADED PIZZA"
+    },
+    {
+      "id": "p11-x59-b1497-2-5",
+      "page": 11,
+      "changed": [
+        457,
+        1207,
+        515,
+        1232
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "229"
+    },
+    {
+      "id": "p11-x59-b1497-10-13",
+      "page": 11,
+      "changed": [
+        586,
+        1207,
+        649,
+        1233
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "409"
+    },
+    {
+      "id": "p11-x59-b1497-18-21",
+      "page": 11,
+      "changed": [
+        705,
+        1207,
+        765,
+        1233
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "549"
+    },
+    {
+      "id": "p11-x59-b1582-0-31",
+      "page": 11,
+      "changed": [
+        388,
+        1455,
+        403,
+        1469
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Customise your sauces and pizz",
+      "original": "Customise your sauces and pizza"
+    },
+    {
+      "id": "p11-x59-b1649-0-29",
+      "page": 11,
+      "changed": [
+        324,
+        1497,
+        328,
+        1502
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "slices for the perfect bites",
+      "original": "slices for the perfect bites."
+    },
+    {
+      "id": "p11-x59-b1764-2-5",
+      "page": 11,
+      "changed": [
+        163,
+        1553,
+        217,
+        1578
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "419"
+    },
+    {
+      "id": "p11-x59-b1764-10-13",
+      "page": 11,
+      "changed": [
+        273,
+        1553,
+        331,
+        1579
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "579"
+    },
+    {
+      "id": "p12-x62-b2389-0-1",
+      "page": 12,
+      "changed": [
+        710,
+        962,
+        724,
+        981
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "5",
+      "original": "4"
+    },
+    {
+      "id": "p12-x62-b2389-22-23",
+      "page": 12,
+      "changed": [
+        947,
+        962,
+        959,
+        981
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "5",
+      "original": "2"
+    },
+    {
+      "id": "p12-x62-b2396-18-19",
+      "page": 12,
+      "changed": [
+        925,
+        995,
+        937,
+        1014
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "5",
+      "original": "2"
+    },
+    {
+      "id": "p12-x62-b2403-11-12",
+      "page": 12,
+      "changed": [
+        846,
+        1028,
+        858,
+        1047
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "5",
+      "original": "2"
+    },
+    {
+      "id": "p12-x62-b2403-28-29",
+      "page": 12,
+      "changed": [
+        1029,
+        1028,
+        1041,
+        1047
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "5",
+      "original": "2"
+    },
+    {
+      "id": "p12-x62-b3134-0-4",
+      "page": 12,
+      "changed": [
+        287,
+        450,
+        388,
+        482
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "KID",
+      "original": "KIDS"
+    },
+    {
+      "id": "p12-x62-b3160-0-5",
+      "page": 12,
+      "changed": [
+        257,
+        500,
+        416,
+        532
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "COMB",
+      "original": "COMBO"
+    },
+    {
+      "id": "p12-x62-b3192-0-7",
+      "page": 12,
+      "changed": [
+        789,
+        455,
+        963,
+        485
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "SPECIA",
+      "original": "SPECIAL"
+    },
+    {
+      "id": "p12-x62-b3215-0-5",
+      "page": 12,
+      "changed": [
+        797,
+        504,
+        955,
+        536
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "COMB",
+      "original": "COMBO"
+    },
+    {
+      "id": "p12-x62-b3238-1-4",
+      "page": 12,
+      "changed": [
+        308,
+        562,
+        373,
+        589
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "259"
+    },
+    {
+      "id": "p12-x62-b3266-1-4",
+      "page": 12,
+      "changed": [
+        850,
+        567,
+        917,
+        594
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "859"
+    },
+    {
+      "id": "p12-x62-b3294-1-5",
+      "page": 12,
+      "changed": [
+        849,
+        906,
+        933,
+        933
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "1099"
+    },
+    {
+      "id": "p12-x62-b3317-0-5",
+      "page": 12,
+      "changed": [
+        806,
+        797,
+        947,
+        826
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "PART",
+      "original": "PARTY"
+    },
+    {
+      "id": "p12-x62-b3334-0-5",
+      "page": 12,
+      "changed": [
+        800,
+        845,
+        951,
+        875
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "COMB",
+      "original": "COMBO"
+    },
+    {
+      "id": "p12-x62-b3357-0-6",
+      "page": 12,
+      "changed": [
+        246,
+        799,
+        410,
+        829
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "FAMIL",
+      "original": "FAMILY"
+    },
+    {
+      "id": "p12-x62-b3378-0-5",
+      "page": 12,
+      "changed": [
+        244,
+        847,
+        403,
+        879
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "COMB",
+      "original": "COMBO"
+    },
+    {
+      "id": "p12-x62-b3410-1-4",
+      "page": 12,
+      "changed": [
+        307,
+        907,
+        374,
+        934
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "599"
+    },
+    {
+      "id": "p2-x32-b3863-0-2-edge-9",
+      "page": 2,
+      "changed": [
+        583,
+        772,
+        599,
+        795
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "69"
+    },
+    {
+      "id": "p2-x32-b3863-0-2-edge-55",
+      "page": 2,
+      "changed": [
+        583,
+        772,
+        616,
+        795
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "69"
+    },
+    {
+      "id": "p2-x32-b3863-0-2-edge-159",
+      "page": 2,
+      "changed": [
+        566,
+        772,
+        599,
+        795
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "69"
+    },
+    {
+      "id": "p2-x32-b3863-0-2-edge-140",
+      "page": 2,
+      "changed": [
+        566,
+        772,
+        616,
+        795
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "69"
+    },
+    {
+      "id": "p2-x32-b3863-0-2-edge-9999",
+      "page": 2,
+      "changed": [
+        548,
+        772,
+        599,
+        795
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "69"
+    },
+    {
+      "id": "p2-x32-b4003-0-3-edge-9",
+      "page": 2,
+      "changed": [
+        1077,
+        800,
+        1109,
+        823
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "109"
+    },
+    {
+      "id": "p2-x32-b4003-0-3-edge-55",
+      "page": 2,
+      "changed": [
+        1077,
+        800,
+        1127,
+        823
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "109"
+    },
+    {
+      "id": "p2-x32-b4003-0-3-edge-159",
+      "page": 2,
+      "changed": [
+        1093,
+        800,
+        1109,
+        823
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "109"
+    },
+    {
+      "id": "p2-x32-b4003-0-3-edge-140",
+      "page": 2,
+      "changed": [
+        1093,
+        800,
+        1127,
+        823
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "109"
+    },
+    {
+      "id": "p2-x32-b4003-0-3-edge-9999",
+      "page": 2,
+      "changed": [
+        1058,
+        800,
+        1109,
+        823
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "109"
+    },
+    {
+      "id": "p5-x41-b864-0-3-edge-9",
+      "page": 5,
+      "changed": [
+        1027,
+        1045,
+        1048,
+        1068
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p5-x41-b864-0-3-edge-55",
+      "page": 5,
+      "changed": [
+        1027,
+        1045,
+        1067,
+        1069
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "119"
+    },
+    {
+      "id": "p5-x41-b864-0-3-edge-159",
+      "page": 5,
+      "changed": [
+        1018,
+        1045,
+        1048,
+        1068
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "119"
+    },
+    {
+      "id": "p5-x41-b864-0-3-edge-140",
+      "page": 5,
+      "changed": [
+        1016,
+        1045,
+        1067,
+        1069
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "119"
+    },
+    {
+      "id": "p5-x41-b864-0-3-edge-9999",
+      "page": 5,
+      "changed": [
+        994,
+        1045,
+        1048,
+        1069
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "119"
+    },
+    {
+      "id": "p5-x41-b1028-0-3-edge-9",
+      "page": 5,
+      "changed": [
+        1021,
+        421,
+        1052,
+        444
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b1028-0-3-edge-55",
+      "page": 5,
+      "changed": [
+        1021,
+        421,
+        1071,
+        445
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b1028-0-3-edge-159",
+      "page": 5,
+      "changed": [
+        1021,
+        421,
+        1052,
+        444
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b1028-0-3-edge-140",
+      "page": 5,
+      "changed": [
+        1020,
+        421,
+        1071,
+        445
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "149"
+    },
+    {
+      "id": "p5-x41-b1028-0-3-edge-9999",
+      "page": 5,
+      "changed": [
+        998,
+        421,
+        1052,
+        445
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "149"
+    },
+    {
+      "id": "p6-x44-b2893-0-2-edge-9",
+      "page": 6,
+      "changed": [
+        245,
+        587,
+        284,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "59"
+    },
+    {
+      "id": "p6-x44-b2893-0-2-edge-55",
+      "page": 6,
+      "changed": [
+        266,
+        587,
+        284,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "59"
+    },
+    {
+      "id": "p6-x44-b2893-0-2-edge-159",
+      "page": 6,
+      "changed": [
+        244,
+        587,
+        296,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "59"
+    },
+    {
+      "id": "p6-x44-b2893-0-2-edge-140",
+      "page": 6,
+      "changed": [
+        244,
+        587,
+        296,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "59"
+    },
+    {
+      "id": "p6-x44-b2893-0-2-edge-9999",
+      "page": 6,
+      "changed": [
+        245,
+        587,
+        326,
+        613
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "59"
+    },
+    {
+      "id": "p6-x44-b3170-0-2-edge-9",
+      "page": 6,
+      "changed": [
+        928,
+        1484,
+        961,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p6-x44-b3170-0-2-edge-55",
+      "page": 6,
+      "changed": [
+        928,
+        1484,
+        961,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "89"
+    },
+    {
+      "id": "p6-x44-b3170-0-2-edge-159",
+      "page": 6,
+      "changed": [
+        928,
+        1484,
+        970,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "89"
+    },
+    {
+      "id": "p6-x44-b3170-0-2-edge-140",
+      "page": 6,
+      "changed": [
+        928,
+        1484,
+        971,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "89"
+    },
+    {
+      "id": "p6-x44-b3170-0-2-edge-9999",
+      "page": 6,
+      "changed": [
+        928,
+        1484,
+        995,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "89"
+    },
+    {
+      "id": "p7-x47-b2001-0-3-edge-9",
+      "page": 7,
+      "changed": [
+        244,
+        585,
+        294,
+        612
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "139"
+    },
+    {
+      "id": "p7-x47-b2001-0-3-edge-55",
+      "page": 7,
+      "changed": [
+        244,
+        585,
+        294,
+        612
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "139"
+    },
+    {
+      "id": "p7-x47-b2001-0-3-edge-159",
+      "page": 7,
+      "changed": [
+        255,
+        585,
+        295,
+        612
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "139"
+    },
+    {
+      "id": "p7-x47-b2001-0-3-edge-140",
+      "page": 7,
+      "changed": [
+        255,
+        585,
+        296,
+        612
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "139"
+    },
+    {
+      "id": "p7-x47-b2001-0-3-edge-9999",
+      "page": 7,
+      "changed": [
+        244,
+        585,
+        326,
+        612
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "139"
+    },
+    {
+      "id": "p7-x47-b2793-0-2-edge-9",
+      "page": 7,
+      "changed": [
+        928,
+        1484,
+        961,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "89"
+    },
+    {
+      "id": "p7-x47-b2793-0-2-edge-55",
+      "page": 7,
+      "changed": [
+        928,
+        1484,
+        961,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "89"
+    },
+    {
+      "id": "p7-x47-b2793-0-2-edge-159",
+      "page": 7,
+      "changed": [
+        928,
+        1484,
+        970,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "89"
+    },
+    {
+      "id": "p7-x47-b2793-0-2-edge-140",
+      "page": 7,
+      "changed": [
+        928,
+        1484,
+        971,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "89"
+    },
+    {
+      "id": "p7-x47-b2793-0-2-edge-9999",
+      "page": 7,
+      "changed": [
+        928,
+        1484,
+        995,
+        1506
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "89"
+    },
+    {
+      "id": "p8-x50-b1772-0-3-edge-9",
+      "page": 8,
+      "changed": [
+        427,
+        752,
+        479,
+        777
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "119"
+    },
+    {
+      "id": "p8-x50-b1772-0-3-edge-55",
+      "page": 8,
+      "changed": [
+        427,
+        752,
+        479,
+        777
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "119"
+    },
+    {
+      "id": "p8-x50-b1772-0-3-edge-159",
+      "page": 8,
+      "changed": [
+        445,
+        752,
+        461,
+        777
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "119"
+    },
+    {
+      "id": "p8-x50-b1772-0-3-edge-9999",
+      "page": 8,
+      "changed": [
+        427,
+        752,
+        497,
+        777
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "119"
+    },
+    {
+      "id": "p8-x50-b2177-0-3-edge-9",
+      "page": 8,
+      "changed": [
+        732,
+        1302,
+        783,
+        1327
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "159"
+    },
+    {
+      "id": "p8-x50-b2177-0-3-edge-55",
+      "page": 8,
+      "changed": [
+        732,
+        1302,
+        783,
+        1327
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "159"
+    },
+    {
+      "id": "p8-x50-b2177-0-3-edge-9999",
+      "page": 8,
+      "changed": [
+        732,
+        1302,
+        801,
+        1327
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "159"
+    },
+    {
+      "id": "p9-x53-b1360-0-2-edge-9",
+      "page": 9,
+      "changed": [
+        560,
+        415,
+        579,
+        446
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1360-0-2-edge-55",
+      "page": 9,
+      "changed": [
+        560,
+        415,
+        603,
+        446
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1360-0-2-edge-159",
+      "page": 9,
+      "changed": [
+        543,
+        416,
+        559,
+        442
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1360-0-2-edge-140",
+      "page": 9,
+      "changed": [
+        539,
+        415,
+        603,
+        446
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1591-0-2-edge-9",
+      "page": 9,
+      "changed": [
+        1058,
+        1231,
+        1073,
+        1252
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1591-0-2-edge-55",
+      "page": 9,
+      "changed": [
+        1057,
+        1231,
+        1091,
+        1253
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1591-0-2-edge-159",
+      "page": 9,
+      "changed": [
+        1046,
+        1231,
+        1055,
+        1252
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1591-0-2-edge-140",
+      "page": 9,
+      "changed": [
+        1044,
+        1231,
+        1091,
+        1253
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "59"
+    },
+    {
+      "id": "p9-x53-b1591-0-2-edge-9999",
+      "page": 9,
+      "changed": [
+        1023,
+        1231,
+        1073,
+        1253
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "59"
+    },
+    {
+      "id": "p10-x56-b351-2-5-edge-9",
+      "page": 10,
+      "changed": [
+        735,
+        575,
+        789,
+        600
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "149"
+    },
+    {
+      "id": "p10-x56-b351-2-5-edge-55",
+      "page": 10,
+      "changed": [
+        735,
+        575,
+        789,
+        601
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "149"
+    },
+    {
+      "id": "p10-x56-b351-2-5-edge-159",
+      "page": 10,
+      "changed": [
+        748,
+        575,
+        789,
+        601
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "149"
+    },
+    {
+      "id": "p10-x56-b351-2-5-edge-140",
+      "page": 10,
+      "changed": [
+        770,
+        575,
+        789,
+        601
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "149"
+    },
+    {
+      "id": "p10-x56-b2099-0-2-edge-9",
+      "page": 10,
+      "changed": [
+        465,
+        673,
+        493,
+        690
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "80"
+    },
+    {
+      "id": "p10-x56-b2099-0-2-edge-55",
+      "page": 10,
+      "changed": [
+        465,
+        673,
+        493,
+        690
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "80"
+    },
+    {
+      "id": "p10-x56-b2099-0-2-edge-159",
+      "page": 10,
+      "changed": [
+        465,
+        673,
+        505,
+        690
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "80"
+    },
+    {
+      "id": "p10-x56-b2099-0-2-edge-140",
+      "page": 10,
+      "changed": [
+        465,
+        673,
+        505,
+        690
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "80"
+    },
+    {
+      "id": "p10-x56-b2099-0-2-edge-9999",
+      "page": 10,
+      "changed": [
+        465,
+        673,
+        529,
+        690
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "80"
+    },
+    {
+      "id": "p11-x59-b1497-2-5-edge-9",
+      "page": 11,
+      "changed": [
+        457,
+        1207,
+        515,
+        1232
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "229"
+    },
+    {
+      "id": "p11-x59-b1497-2-5-edge-55",
+      "page": 11,
+      "changed": [
+        457,
+        1207,
+        515,
+        1233
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "229"
+    },
+    {
+      "id": "p11-x59-b1497-2-5-edge-159",
+      "page": 11,
+      "changed": [
+        457,
+        1207,
+        515,
+        1233
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "229"
+    },
+    {
+      "id": "p11-x59-b1497-2-5-edge-140",
+      "page": 11,
+      "changed": [
+        457,
+        1207,
+        515,
+        1233
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "229"
+    },
+    {
+      "id": "p11-x59-b1764-10-13-edge-9",
+      "page": 11,
+      "changed": [
+        273,
+        1553,
+        331,
+        1579
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "579"
+    },
+    {
+      "id": "p11-x59-b1764-10-13-edge-55",
+      "page": 11,
+      "changed": [
+        293,
+        1553,
+        331,
+        1579
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "579"
+    },
+    {
+      "id": "p11-x59-b1764-10-13-edge-159",
+      "page": 11,
+      "changed": [
+        273,
+        1553,
+        331,
+        1579
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "579"
+    },
+    {
+      "id": "p11-x59-b1764-10-13-edge-140",
+      "page": 11,
+      "changed": [
+        273,
+        1553,
+        331,
+        1579
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "579"
+    },
+    {
+      "id": "p11-x59-b1764-10-13-edge-9999",
+      "page": 11,
+      "changed": [
+        273,
+        1553,
+        356,
+        1579
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9999",
+      "original": "579"
+    },
+    {
+      "id": "p12-x62-b3238-1-4-edge-9",
+      "page": 12,
+      "changed": [
+        308,
+        562,
+        373,
+        589
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "259"
+    },
+    {
+      "id": "p12-x62-b3238-1-4-edge-55",
+      "page": 12,
+      "changed": [
+        308,
+        562,
+        373,
+        589
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "259"
+    },
+    {
+      "id": "p12-x62-b3238-1-4-edge-159",
+      "page": 12,
+      "changed": [
+        308,
+        562,
+        373,
+        589
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "259"
+    },
+    {
+      "id": "p12-x62-b3238-1-4-edge-140",
+      "page": 12,
+      "changed": [
+        308,
+        562,
+        373,
+        589
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "259"
+    },
+    {
+      "id": "p12-x62-b3410-1-4-edge-9",
+      "page": 12,
+      "changed": [
+        307,
+        907,
+        374,
+        934
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "9",
+      "original": "599"
+    },
+    {
+      "id": "p12-x62-b3410-1-4-edge-55",
+      "page": 12,
+      "changed": [
+        307,
+        907,
+        374,
+        934
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "55",
+      "original": "599"
+    },
+    {
+      "id": "p12-x62-b3410-1-4-edge-159",
+      "page": 12,
+      "changed": [
+        307,
+        907,
+        374,
+        934
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "159",
+      "original": "599"
+    },
+    {
+      "id": "p12-x62-b3410-1-4-edge-140",
+      "page": 12,
+      "changed": [
+        307,
+        907,
+        374,
+        934
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "140",
+      "original": "599"
+    },
+    {
+      "id": "p6-x44-b1788-0-25",
+      "page": 6,
+      "changed": [
+        699,
+        1019,
+        703,
+        1025
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Flattened rice, turmeric",
+      "original": "Flattened rice, turmeric,"
+    },
+    {
+      "id": "p6-x44-b1927-0-4",
+      "page": 6,
+      "changed": [
+        504,
+        501,
+        514,
+        515
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Ric",
+      "original": "Rich"
+    },
+    {
+      "id": "p6-x44-b2153-0-27",
+      "page": 6,
+      "changed": [
+        1044,
+        1008,
+        1055,
+        1023
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "AuthenticPoha withflattene",
+      "original": "AuthenticPoha withflattened"
+    },
+    {
+      "id": "p7-x47-b1279-0-7",
+      "page": 7,
+      "changed": [
+        314,
+        1014,
+        327,
+        1030
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Noodle",
+      "original": "Noodles"
+    },
+    {
+      "id": "p7-x47-b3339-0-23",
+      "page": 7,
+      "changed": [
+        370,
+        1041,
+        374,
+        1047
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Spicy blend of noodles",
+      "original": "Spicy blend of noodles,"
+    },
+    {
+      "id": "p12-x62-b2329-26-29",
+      "page": 12,
+      "changed": [
+        449,
+        1028,
+        475,
+        1047
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "555",
+      "original": "500"
+    },
+    {
+      "id": "p12-x62-b2374-6-9",
+      "page": 12,
+      "changed": [
+        333,
+        695,
+        372,
+        714
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "555",
+      "original": "250"
+    },
+    {
+      "id": "p12-x62-b2410-12-15",
+      "page": 12,
+      "changed": [
+        916,
+        1061,
+        941,
+        1080
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "555",
+      "original": "500"
+    },
+    {
+      "id": "p12-x62-b2460-7-10",
+      "page": 12,
+      "changed": [
+        883,
+        728,
+        909,
+        747
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "555",
+      "original": "500"
+    },
+    {
+      "id": "p2-x32-b3721-0-17-expanded",
+      "page": 2,
+      "changed": [
+        252,
+        772,
+        425,
+        795
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Aloo Tikki Burgers",
+      "original": "Aloo Tikki Burger"
+    },
+    {
+      "id": "p6-x44-b1667-0-12-expanded",
+      "page": 6,
+      "changed": [
+        369,
+        479,
+        382,
+        495
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Plain Maggies",
+      "original": "Plain Maggie"
+    },
+    {
+      "id": "p11-x59-b328-0-12-expanded",
+      "page": 11,
+      "changed": [
+        605,
+        692,
+        617,
+        710
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Paneer Tikkas",
+      "original": "Paneer Tikka"
+    },
+    {
+      "id": "p12-x62-b2315-0-29",
+      "page": 12,
+      "changed": [
+        368,
+        964,
+        493,
+        981
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Aloo Tikki Burger + Veg Trea",
+      "original": "Aloo Tikki Burger + Veg Treat"
+    },
+    {
+      "id": "p12-x62-b2322-0-27",
+      "page": 12,
+      "changed": [
+        404,
+        994,
+        488,
+        1014
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Pizza(M) + Pasta Sandwich",
+      "original": "Pizza(M) + Pasta Sandwich +"
+    },
+    {
+      "id": "p12-x62-b2360-0-31",
+      "page": 12,
+      "changed": [
+        303,
+        633,
+        513,
+        648
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Aloo Tikki Burger + Golden Cor",
+      "original": "Aloo Tikki Burger + Golden Corn"
+    },
+    {
+      "id": "p12-x62-b2367-0-25",
+      "page": 12,
+      "changed": [
+        300,
+        661,
+        476,
+        681
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Pizza + French Fries+Col",
+      "original": "Pizza + French Fries+Cold"
+    },
+    {
+      "id": "p12-x62-b2439-0-31",
+      "page": 12,
+      "changed": [
+        907,
+        628,
+        1047,
+        653
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "J Town Special Burger + Specia",
+      "original": "J Town Special Burger + Special"
+    },
+    {
+      "id": "p12-x62-b2446-0-26",
+      "page": 12,
+      "changed": [
+        840,
+        662,
+        1026,
+        681
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Loaded Pizza(M) + Tandoor",
+      "original": "Loaded Pizza(M) + Tandoori"
+    },
+    {
+      "id": "p12-x62-b2453-0-30",
+      "page": 12,
+      "changed": [
+        1032,
+        694,
+        1044,
+        714
+      ],
+      "outside": null,
+      "pass": true,
+      "value": "Sandwich + French Fries + Col",
+      "original": "Sandwich + French Fries + Cold"
+    }
+  ],
+  "rejected": []
+}

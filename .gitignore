@@ -1,0 +1,12 @@
+node_modules/
+dist/
+original.pdf
+fonts.json
+static/catalog.json
+work/
+.DS_Store
+
+.env
+.env.*
+!.env.example
+.openai/
