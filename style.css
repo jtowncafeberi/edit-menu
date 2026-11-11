@@ -15,7 +15,7 @@ body { margin: 0; overflow-anchor: none; min-height: 100vh;
   background: radial-gradient(ellipse at 12% 0%, #344d7b26, transparent 43%), radial-gradient(ellipse at 94% 20%, #68503413, transparent 38%), #0c0e13;
   background-attachment: fixed; color-scheme: dark;
 }
-button, input, select, summary { font: inherit; }
+button, input, textarea, select, summary { font: inherit; }
 button, summary { cursor: pointer; }
 button {
   min-height: 38px;
@@ -29,7 +29,7 @@ button {
 }
 button:hover { background: #ffffff12; border-color: #ffffff38; }
 button:disabled { opacity: .42; cursor: default; }
-button:focus-visible, summary:focus-visible, select:focus-visible, input:focus-visible {
+button:focus-visible, summary:focus-visible, select:focus-visible, input:focus-visible, textarea:focus-visible {
   outline: 3px solid #8aa9ff;
   outline-offset: 3px;
 }
@@ -137,7 +137,7 @@ main { min-width: 0; padding: 0 38px 64px; overflow: clip; }
 .page canvas, .page img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: fill; }
 .targets { position: absolute; inset: 0; z-index: 2; }
 .target { position: absolute; min-width: 0; min-height: 0; padding: 0; border: 1px dashed #edc95bcc; border-radius: 2px; background: #edce5a0a; transition: none; }
-.target[data-kind=name] { border-color: #c1d4c199; background: transparent; }
+.target[data-kind=name], .target[data-kind=description], .target[data-kind=text] { border-color: #c1d4c199; background: transparent; }
 .target[data-kind=quantity] { border-color: #acc9eebb; background: transparent; }
 .target:hover, .target:focus-visible { background: #f9d34e33; border: 1px solid #ffdf60; outline: 0; }
 .target.changed { border: 1px solid #96e0a8; background: #74d99717; }
@@ -152,7 +152,7 @@ dialog::backdrop { background: #03050bc4; backdrop-filter: blur(3px); -webkit-ba
 .dialog-head button { width: 32px; min-height: 32px; border: 0; padding: 0; font-size: 24px; letter-spacing: 0; }
 dialog label { display: block; margin-bottom: 8px; font-size: 23px; font-weight: 600; letter-spacing: -.6px; }
 .dialog-intro { margin: 0 0 18px; font-size: 12px; line-height: 1.6; color: #a6b0c4; }
-dialog input { width: 100%; padding: 13px 14px; border: 1px solid #ffffff30; border-radius: 9px; background: #080c15a6; font-size: 22px; font-weight: 550; color: #f1f4fb; }
+dialog textarea { resize: vertical; min-height: 56px; max-height: 40vh; white-space: pre-wrap; width: 100%; padding: 13px 14px; border: 1px solid #ffffff30; border-radius: 9px; background: #080c15a6; font-size: 22px; font-weight: 550; color: #f1f4fb; }
 #originalValue { margin: 12px 0 0; font-size: 11px; line-height: 1.6; color: #a5b0c6; overflow-wrap: anywhere; }
 .hint { font-size: 11px; line-height: 1.6; color: #a5b0c6; }
 .hint:empty, #fieldError:empty { display: none; }

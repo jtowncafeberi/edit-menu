@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm run build && npm run preview",
     "build": "vite build && node scripts/build-worker.mjs",
-    "test": "node verify.mjs && node share-pdf.test.mjs && node storage.test.mjs",
+    "test": "node verify.mjs && node grouped-fields.test.mjs && node share-pdf.test.mjs && node storage.test.mjs",
     "preview": "node scripts/dev-server.mjs",
     "build:vercel": "vite build --mode vercel"
   },

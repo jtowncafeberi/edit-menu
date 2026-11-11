@@ -55,7 +55,7 @@
           <button id="zoomOut" aria-label="Zoom out">−</button><output id="zoomValue" aria-label="Zoom level">100%</output><button id="zoomIn" aria-label="Zoom in">+</button><span class="zoom-divider" aria-hidden="true"></span><button id="fit" title="Fit the menu to the available width">Fit page</button>
         </div>
       </div>
-      <div class="editing-guide"><p id="notice" role="status">Loading your original menu…</p><div class="legend" aria-label="Editable areas"><span><i class="price-dot"></i>Prices</span><span><i class="text-dot"></i>Names</span><span><i class="quantity-dot"></i>Sizes</span></div></div>
+      <div class="editing-guide"><p id="notice" role="status">Loading your original menu…</p><div class="legend" aria-label="Editable areas"><span><i class="price-dot"></i>Prices</span><span><i class="text-dot"></i>Names &amp; text</span><span><i class="quantity-dot"></i>Sizes</span></div></div>
       <div id="menu" tabindex="0" role="region" aria-label="Menu pages, horizontally scrollable when zoomed"></div>
     </main>
   </div>
@@ -65,10 +65,10 @@
       <div class="dialog-head"><span id="fieldType">EDIT PRICE</span><button type="button" id="close" class="icon-button" aria-label="Close editor">×</button></div>
       <label for="value" id="valueLabel">Price</label>
       <p id="editHint" class="dialog-intro">A small change. The original design stays in place.</p>
-      <input id="value" autocomplete="off" required maxlength="150">
+      <textarea id="value" rows="1" autocomplete="off" required maxlength="150"></textarea>
       <p id="originalValue"></p><p id="fontLimit" class="hint"></p><p id="fieldError" role="alert"></p>
       <div class="dialog-actions"><button id="resetOne" type="button">Use original</button><button id="apply" class="primary" type="submit">Save change</button></div>
-      <p class="hint dialog-footer">Original typeface and size · No automatic reflow</p>
+      <p id="editFooter" class="hint dialog-footer">Original typeface and size · No automatic reflow</p>
     </form>
   </dialog>
   <div id="toast" role="status" aria-live="polite"></div>

@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-11",
+  "groups": 33,
+  "targets": 323,
+  "renderers": [
+    "MuPDF",
+    "PDF.js"
+  ],
+  "scale": 2,
+  "zeroEditDownloadSHA256": "d836718da1d9e869dba29fba8cca284668ee0ea04658ee821da3a9fa76187a8a",
+  "sourceImagesUnchanged": true,
+  "pages": [
+    {
+      "page": 1,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 2,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 3,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 4,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 5,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 6,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 7,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 8,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 9,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 10,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 11,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    },
+    {
+      "page": 12,
+      "differencesOutsideEditedRegions": 0,
+      "imageBytesIdentical": true
+    }
+  ]
+}

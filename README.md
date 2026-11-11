@@ -37,9 +37,9 @@ Share PDF passes the current, full-quality PDF file to the device’s native sha
 
 [AUDIT.md](AUDIT.md) records the findings, fixes and test coverage: all 383 editable regions, 468 individual export comparisons, a combined 383-edit export checked by two renderers, and desktop/mobile UI checks.
 
-Missing original font glyphs and values that cannot fit without disturbing nearby lettering are blocked, with an explanation. Some CMU Serif/Now font digits remain unavailable. Inline quantities in shared text runs must retain their printed width. Exact full-font supplements are included for Poppins Medium/Bold and Alegreya Bold; their OFL licenses are in `static/`.
+Missing original font glyphs and values that cannot fit without disturbing nearby lettering are blocked, with an explanation. Some CMU Serif/Now font digits remain unavailable. Legacy inline quantity edits in shared text runs must retain their printed width; grouped combo descriptions edit the complete text object instead. The Kids COMBO lettering has a separate decorative outline and must remain unchanged. Exact full-font supplements are included for Poppins Medium/Bold and Alegreya Bold; their OFL licenses are in `static/`.
 
-Some names are separate PDF runs and retain separate controls. Original tight spacing, faint border lettering and the white strip above page 6 are present in the source and remain unchanged. The source's historical hidden text layers remain; this editor is not a redaction workflow.
+Split dish names and descriptions are grouped into 33 whole-text editing regions, including Classic Lemonade and all Maggi & Poha descriptions. The editor keeps printed line positions, wraps within the original region, and rejects text that cannot fit at the original font size. Existing backups with fragment edits remain compatible. Original tight spacing, faint border lettering and the white strip above page 6 are present in the source and remain unchanged. The source's historical hidden text layers remain; this editor is not a redaction workflow.
 
 ## Verification
 
@@ -61,3 +61,12 @@ work/venv/bin/python scripts/compare-combined.py
 ```
 
 These create test-only PDFs under `work/`; they do not change the website's original menu or saved browser edits. Machine-readable results from the completed audit are retained in `validation-audit.json` and `validation-comparison.json`.
+
+Grouped-text export audit (after `npm test`):
+
+```sh
+PDFJS_OUTPUT=work/grouped-validation/pdfjs COMBINED_PDF=work/grouped-validation/grouped.pdf node audit-pdfjs.mjs
+work/venv/bin/python scripts/compare-grouped.py
+```
+
+This edits all 33 grouped regions simultaneously and compares every page with both MuPDF and PDF.js at 144 dpi. Image bytes and page dimensions must remain identical, and differences must stay inside the edited text regions.

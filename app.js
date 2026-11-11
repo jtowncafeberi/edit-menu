@@ -28,7 +28,7 @@ function download(bytes, name, type) {
 }
 function status() {
   if (recovery) return 'Saved edits need review. Export the recovery backup before making changes.';
-  return mode === 'edit' ? 'Click a highlighted price or name to edit.' : 'Preview mode · Editing marks are hidden.';
+  return mode === 'edit' ? 'Click a highlighted price or text region to edit.' : 'Preview mode · Editing marks are hidden.';
 }
 function syncUI() {
   const count = Object.keys(edits).length;
@@ -51,15 +51,15 @@ function syncUI() {
   $('share').disabled = !ready || busy || !preparedPDFFile;
   $('apply').disabled = busy;
   $('apply').textContent = busy ? 'Saving…' : 'Save change';
-  $('resetOne').disabled = busy || !selected || !(selected.id in edits);
+  $('resetOne').disabled = busy || !selected || !engine.changed(selected, edits);
   $('menu').setAttribute('aria-busy', String(busy || !ready));
   document.querySelectorAll('.target').forEach(button => {
     const field = engine.fields.get(button.dataset.id);
-    const value = edits[field.id] ?? field.text;
+    const value = engine.valueFor(field, edits);
     const box = engine.bounds(field, value), page = data.pages[field.page - 1];
     button.style.cssText = `left:${box[0] / page.width * 100}%;top:${box[1] / page.height * 100}%;width:${(box[2] - box[0]) / page.width * 100}%;height:${(box[3] - box[1]) / page.height * 100}%`;
     button.disabled = !ready || busy;
-    button.classList.toggle('changed', field.id in edits);
+    button.classList.toggle('changed', engine.changed(field, edits));
     button.title = `${field.kind === 'price' ? 'Price' : 'Text'}: ${value}`;
     button.setAttribute('aria-label', `Edit ${field.kind}: ${value}`);
   });
@@ -228,8 +228,12 @@ function openEditor(field) {
   if (!ready || busy) return;
   selected = field;
   $('fieldType').textContent = `PAGE ${field.page} · EDIT ${field.kind.toUpperCase()}`;
-  $('valueLabel').textContent = field.kind === 'price' ? 'Price as printed' : field.kind === 'quantity' ? 'Quantity / size' : 'Dish name / text';
-  $('value').value = edits[field.id] ?? field.text;
+  $('valueLabel').textContent = field.kind === 'price' ? 'Price as printed' : field.kind === 'quantity' ? 'Quantity / size' : field.kind === 'description' ? 'Description' : 'Dish name / text';
+  $('value').value = engine.valueFor(field, edits);
+  $('value').rows = field.lines ? Math.max(3, field.lines.length + 1) : 1;
+  $('value').maxLength = field.lines ? 600 : 150;
+  $('editHint').textContent = field.lines ? 'Edit the whole text here. Line breaks keep the printed line positions; long lines wrap within this region.' : 'A small change. The original design stays in place.';
+  $('editFooter').textContent = field.lines ? 'Original typeface and size · Text must fit the original region' : 'Original typeface and size · No automatic reflow';
   $('value').inputMode = (field.kind === 'price' || field.kind === 'quantity') && field.text !== 'MRP' ? 'numeric' : 'text';
   $('originalValue').textContent = `Original: ${field.text}`;
   $('fieldError').textContent = '';
@@ -251,7 +255,7 @@ function construct() {
     $('pages').append(nav);
     const option = document.createElement('option'); option.value = String(index + 1); option.textContent = `${String(index + 1).padStart(2, '0')} · ${titles[index]}`; $('pageSelect').append(option);
   });
-  for (const field of data.fields) {
+  for (const field of engine.editableFields) {
     const button = document.createElement('button');
     button.className = 'target'; button.dataset.id = field.id; button.dataset.kind = field.kind;
     button.onclick = () => openEditor(field);
@@ -283,20 +287,20 @@ $('zoomIn').onclick = () => setZoom(zoom + .25);
 $('zoomOut').onclick = () => setZoom(zoom - .25);
 $('fit').onclick = () => setZoom(1);
 $('close').onclick = () => $('editor').close();
+$('value').onkeydown = event => { if (event.key === 'Enter' && (!selected?.lines || event.metaKey || event.ctrlKey)) { event.preventDefault(); $('editForm').requestSubmit(); } };
 $('editForm').onsubmit = async event => {
   event.preventDefault();
   if (!selected || busy) return;
   const field = selected, value = $('value').value;
   try {
-    if (value === (edits[field.id] ?? field.text)) { $('editor').close(); return; }
-    const next = {...edits};
-    if (value === field.text) delete next[field.id]; else next[field.id] = value;
+    if (value === engine.valueFor(field, edits)) { $('editor').close(); return; }
+    const next = engine.setValue(field, value, edits);
     if (await commitEdits(next, 'Change applied and saved in this browser.')) $('editor').close();
   } catch (error) { $('fieldError').textContent = error.message; }
 };
 $('resetOne').onclick = async () => {
-  if (!selected || busy || !(selected.id in edits)) return;
-  const next = {...edits}; delete next[selected.id];
+  if (!selected || busy || !engine.changed(selected, edits)) return;
+  const next = engine.setValue(selected, selected.text, edits);
   try { if (await commitEdits(next, 'Original text restored.')) $('editor').close(); }
   catch (error) { $('fieldError').textContent = error.message; }
 };
